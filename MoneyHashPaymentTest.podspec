@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MoneyHashPaymentTest'
-  s.version          = '4.0.17'
+  s.version          = '4.0.18'
   s.summary          = 'Accept online payments using MoneyHash.'
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386' }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386' }
@@ -44,7 +44,7 @@ Pod::Spec.new do |s|
   
 #  s.source_files = 'MoneyHash/Classes/**/*'
 s.vendored_frameworks = 'MoneyHash.xcframework', 'MoneyHashShared.xcframework'
-s.dependency 'MoneyHashCore', '~> 1'
+s.dependency 'MoneyHashCoreTest', '~> 1'
 
 
 end
