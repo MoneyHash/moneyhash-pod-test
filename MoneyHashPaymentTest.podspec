@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MoneyHashPaymentTest'
-  s.version          = '4.0.21-beta.6'
+  s.version          = '4.0.21-dev.2'
   s.summary          = 'Accept online payments using MoneyHash.'
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386' }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386' }
