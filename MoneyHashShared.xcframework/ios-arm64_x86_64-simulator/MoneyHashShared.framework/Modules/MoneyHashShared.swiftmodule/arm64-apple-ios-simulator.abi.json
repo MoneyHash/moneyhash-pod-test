@@ -50258,6 +50258,51 @@
         "children": [
           {
             "kind": "Function",
+            "name": "confirmLeanPayment",
+            "printedName": "confirmLeanPayment(submitUrl:request:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BankAccountStatusUpdateResponse",
+                "printedName": "MoneyHashShared.BankAccountStatusUpdateResponse",
+                "usr": "c:objc(cs)MHSBankAccountStatusUpdateResponse"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LeanPaymentConfirmationRequest",
+                "printedName": "MoneyHashShared.LeanPaymentConfirmationRequest",
+                "usr": "c:objc(cs)MHSLeanPaymentConfirmationRequest"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So17MHSPaymentServiceP15MoneyHashSharedE18confirmLeanPayment9submitUrl7requestSo34MHSBankAccountStatusUpdateResponseCSS_So07MHSLeanH19ConfirmationRequestCtYaKF",
+            "mangledName": "$sSo17MHSPaymentServiceP15MoneyHashSharedE18confirmLeanPayment9submitUrl7requestSo34MHSBankAccountStatusUpdateResponseCSS_So07MHSLeanH19ConfirmationRequestCtYaKF",
+            "moduleName": "MoneyHashShared",
+            "genericSig": "<τ_0_0 where τ_0_0 : MoneyHashShared.PaymentService>",
+            "sugared_genericSig": "<Self where Self : MoneyHashShared.PaymentService>",
+            "intro_Macosx": "10.15",
+            "intro_iOS": "13",
+            "intro_tvOS": "13",
+            "intro_watchOS": "6",
+            "declAttributes": [
+              "AccessControl",
+              "Available",
+              "Available",
+              "Available",
+              "Available"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "createCardToken",
             "printedName": "createCardToken(cardIntentId:cardData:)",
             "children": [
@@ -50493,6 +50538,45 @@
             "declKind": "Func",
             "usr": "s:So17MHSPaymentServiceP15MoneyHashSharedE25getBankAccountInformation12cardIntentIdSo07MHSBankH7DetailsCSS_tYaKF",
             "mangledName": "$sSo17MHSPaymentServiceP15MoneyHashSharedE25getBankAccountInformation12cardIntentIdSo07MHSBankH7DetailsCSS_tYaKF",
+            "moduleName": "MoneyHashShared",
+            "genericSig": "<τ_0_0 where τ_0_0 : MoneyHashShared.PaymentService>",
+            "sugared_genericSig": "<Self where Self : MoneyHashShared.PaymentService>",
+            "intro_Macosx": "10.15",
+            "intro_iOS": "13",
+            "intro_tvOS": "13",
+            "intro_watchOS": "6",
+            "declAttributes": [
+              "AccessControl",
+              "Available",
+              "Available",
+              "Available",
+              "Available"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getBankAccountTokenizeState",
+            "printedName": "getBankAccountTokenizeState(bankTokenizeIntentId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BankAccountTokenizeStateResponse",
+                "printedName": "MoneyHashShared.BankAccountTokenizeStateResponse",
+                "usr": "c:objc(cs)MHSBankAccountTokenizeStateResponse"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So17MHSPaymentServiceP15MoneyHashSharedE27getBankAccountTokenizeState04bankI8IntentIdSo07MHSBankhiJ8ResponseCSS_tYaKF",
+            "mangledName": "$sSo17MHSPaymentServiceP15MoneyHashSharedE27getBankAccountTokenizeState04bankI8IntentIdSo07MHSBankhiJ8ResponseCSS_tYaKF",
             "moduleName": "MoneyHashShared",
             "genericSig": "<τ_0_0 where τ_0_0 : MoneyHashShared.PaymentService>",
             "sugared_genericSig": "<Self where Self : MoneyHashShared.PaymentService>",
@@ -51147,6 +51231,51 @@
             "declKind": "Func",
             "usr": "s:So17MHSPaymentServiceP15MoneyHashSharedE22selectSubscriptionPlan11planGroupId08customerK00iK0So0A10IntentDataCSS_S2StYaKF",
             "mangledName": "$sSo17MHSPaymentServiceP15MoneyHashSharedE22selectSubscriptionPlan11planGroupId08customerK00iK0So0A10IntentDataCSS_S2StYaKF",
+            "moduleName": "MoneyHashShared",
+            "genericSig": "<τ_0_0 where τ_0_0 : MoneyHashShared.PaymentService>",
+            "sugared_genericSig": "<Self where Self : MoneyHashShared.PaymentService>",
+            "intro_Macosx": "10.15",
+            "intro_iOS": "13",
+            "intro_tvOS": "13",
+            "intro_watchOS": "6",
+            "declAttributes": [
+              "AccessControl",
+              "Available",
+              "Available",
+              "Available",
+              "Available"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "submitBankAccountTokenizationResult",
+            "printedName": "submitBankAccountTokenizationResult(submitUrl:request:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BankAccountStatusUpdateResponse",
+                "printedName": "MoneyHashShared.BankAccountStatusUpdateResponse",
+                "usr": "c:objc(cs)MHSBankAccountStatusUpdateResponse"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BankAccountStatusUpdateRequest",
+                "printedName": "MoneyHashShared.BankAccountStatusUpdateRequest",
+                "usr": "c:objc(cs)MHSBankAccountStatusUpdateRequest"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So17MHSPaymentServiceP15MoneyHashSharedE35submitBankAccountTokenizationResult0F3Url7requestSo07MHSBankH20StatusUpdateResponseCSS_So0mhnO7RequestCtYaKF",
+            "mangledName": "$sSo17MHSPaymentServiceP15MoneyHashSharedE35submitBankAccountTokenizationResult0F3Url7requestSo07MHSBankH20StatusUpdateResponseCSS_So0mhnO7RequestCtYaKF",
             "moduleName": "MoneyHashShared",
             "genericSig": "<τ_0_0 where τ_0_0 : MoneyHashShared.PaymentService>",
             "sugared_genericSig": "<Self where Self : MoneyHashShared.PaymentService>",
@@ -51942,6 +52071,83 @@
         "children": [
           {
             "kind": "Function",
+            "name": "confirmLeanPayment",
+            "printedName": "confirmLeanPayment(submitUrl:status:secret:leanPaymentIntentId:sdkResponse:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MoneyHashShared.BankAccountStatusUpdateData?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BankAccountStatusUpdateData",
+                    "printedName": "MoneyHashShared.BankAccountStatusUpdateData",
+                    "usr": "c:objc(cs)MHSBankAccountStatusUpdateData"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MoneyHashShared.BankAccountSdkResponse?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BankAccountSdkResponse",
+                    "printedName": "MoneyHashShared.BankAccountSdkResponse",
+                    "usr": "c:objc(cs)MHSBankAccountSdkResponse"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So17MHSPaymentUseCaseC15MoneyHashSharedE18confirmLeanPayment9submitUrl6status6secret04leanI8IntentId11sdkResponseSo30MHSBankAccountStatusUpdateDataCSgSS_S3SSo0st3SdkR0CSgtYaKF",
+            "mangledName": "$sSo17MHSPaymentUseCaseC15MoneyHashSharedE18confirmLeanPayment9submitUrl6status6secret04leanI8IntentId11sdkResponseSo30MHSBankAccountStatusUpdateDataCSgSS_S3SSo0st3SdkR0CSgtYaKF",
+            "moduleName": "MoneyHashShared",
+            "intro_Macosx": "10.15",
+            "intro_iOS": "13",
+            "intro_tvOS": "13",
+            "intro_watchOS": "6",
+            "declAttributes": [
+              "AccessControl",
+              "Available",
+              "Available",
+              "Available",
+              "Available"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "deleteSavedCard",
             "printedName": "deleteSavedCard(cardTokenId:intentSecret:)",
             "children": [
@@ -52089,6 +52295,51 @@
             "declKind": "Func",
             "usr": "s:So17MHSPaymentUseCaseC15MoneyHashSharedE25getBankAccountInformation12cardIntentIdSo016MHSNativePayDatahiO0CSS_tYaKF",
             "mangledName": "$sSo17MHSPaymentUseCaseC15MoneyHashSharedE25getBankAccountInformation12cardIntentIdSo016MHSNativePayDatahiO0CSS_tYaKF",
+            "moduleName": "MoneyHashShared",
+            "intro_Macosx": "10.15",
+            "intro_iOS": "13",
+            "intro_tvOS": "13",
+            "intro_watchOS": "6",
+            "declAttributes": [
+              "AccessControl",
+              "Available",
+              "Available",
+              "Available",
+              "Available"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getBankAccountTokenizeState",
+            "printedName": "getBankAccountTokenizeState(bankTokenizeIntentId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So17MHSPaymentUseCaseC15MoneyHashSharedE27getBankAccountTokenizeState04bankJ8IntentIdSSSgSS_tYaKF",
+            "mangledName": "$sSo17MHSPaymentUseCaseC15MoneyHashSharedE27getBankAccountTokenizeState04bankJ8IntentIdSSSgSS_tYaKF",
             "moduleName": "MoneyHashShared",
             "intro_Macosx": "10.15",
             "intro_iOS": "13",
@@ -52937,6 +53188,57 @@
             "declKind": "Func",
             "usr": "s:So17MHSPaymentUseCaseC15MoneyHashSharedE22selectSubscriptionPlan11planGroupId08customerL00jL0So0A10IntentDataCSS_S2StYaKF",
             "mangledName": "$sSo17MHSPaymentUseCaseC15MoneyHashSharedE22selectSubscriptionPlan11planGroupId08customerL00jL0So0A10IntentDataCSS_S2StYaKF",
+            "moduleName": "MoneyHashShared",
+            "intro_Macosx": "10.15",
+            "intro_iOS": "13",
+            "intro_tvOS": "13",
+            "intro_watchOS": "6",
+            "declAttributes": [
+              "AccessControl",
+              "Available",
+              "Available",
+              "Available",
+              "Available"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "submitBankAccountTokenizationResult",
+            "printedName": "submitBankAccountTokenizationResult(submitUrl:request:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MoneyHashShared.BankAccountStatusUpdateData?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BankAccountStatusUpdateData",
+                    "printedName": "MoneyHashShared.BankAccountStatusUpdateData",
+                    "usr": "c:objc(cs)MHSBankAccountStatusUpdateData"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BankAccountStatusUpdateRequest",
+                "printedName": "MoneyHashShared.BankAccountStatusUpdateRequest",
+                "usr": "c:objc(cs)MHSBankAccountStatusUpdateRequest"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So17MHSPaymentUseCaseC15MoneyHashSharedE35submitBankAccountTokenizationResult0G3Url7requestSo07MHSBankI16StatusUpdateDataCSgSS_So0nioP7RequestCtYaKF",
+            "mangledName": "$sSo17MHSPaymentUseCaseC15MoneyHashSharedE35submitBankAccountTokenizationResult0G3Url7requestSo07MHSBankI16StatusUpdateDataCSgSS_So0nioP7RequestCtYaKF",
             "moduleName": "MoneyHashShared",
             "intro_Macosx": "10.15",
             "intro_iOS": "13",
@@ -57179,13 +57481,6 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "SendableMetatype",
-            "printedName": "SendableMetatype",
-            "usr": "s:s16SendableMetatypeP",
-            "mangledName": "$ss16SendableMetatypeP"
           },
           {
             "kind": "Conformance",
