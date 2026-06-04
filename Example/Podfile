@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '14.0'
+
+target 'MoneyHashPayment_Example' do
+  pod 'MoneyHashPayment', :path => '../'
+
+  target 'MoneyHashPayment_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

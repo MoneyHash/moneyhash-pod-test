@@ -1,0 +1,730 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		6BC38C16F3D894767A79DBDB9155A33F /* MoneyHashPayment */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = ABE3019D0385039671FDA28EB677A766 /* Build configuration list for PBXAggregateTarget "MoneyHashPayment" */;
+			buildPhases = (
+				4F2FF90E23A2F5B03FD07E402008CACC /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = MoneyHashPayment;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		4B10D89FAAC08EF4EE8F17E4544C3DB8 /* Pods-MoneyHashPayment_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC18C4D5545376C8A2783C72D0E57164 /* Pods-MoneyHashPayment_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A20A41CA52CA8E2444F96F690D04B64 /* Pods-MoneyHashPayment_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0552057FA0D2859D51C1557CBE4517F4 /* Pods-MoneyHashPayment_Example-dummy.m */; };
+		982B9DD4AA32CE0516124C386A4E7918 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B286EDC33F8444C10797451D09FFA962 /* Pods-MoneyHashPayment_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E8E24F644EBBC2C7D3E112C46DD9CE64 /* Pods-MoneyHashPayment_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED997DCD902CD5965D69E9DC9BBADA0B /* Pods-MoneyHashPayment_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E401DE65816A5A683D962EC97CA75249 /* Pods-MoneyHashPayment_Tests-dummy.m */; };
+		FF485D37F72710BA52F56DCA7A9C15A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C1041BA0445928F193CBF645066BA8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A6037AC3CAEA8A0DDF97D850EEACAF9;
+			remoteInfo = "Pods-MoneyHashPayment_Example";
+		};
+		83D6F838DB5443FB42F932ECAA84FF42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BC38C16F3D894767A79DBDB9155A33F;
+			remoteInfo = MoneyHashPayment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		046D7CCC1E0A613444F9E5F014583975 /* Pods-MoneyHashPayment_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoneyHashPayment_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0552057FA0D2859D51C1557CBE4517F4 /* Pods-MoneyHashPayment_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MoneyHashPayment_Example-dummy.m"; sourceTree = "<group>"; };
+		0EA8F3B564571CC502C2821652AB1051 /* MoneyHashPayment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MoneyHashPayment.release.xcconfig; sourceTree = "<group>"; };
+		2729BEAFFB99DFF2DA0F5EA37AD018A6 /* MoneyHashPayment.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MoneyHashPayment.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		34836B1431E42C243B96FF88A58F1BA0 /* Pods-MoneyHashPayment_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoneyHashPayment_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		36E21CE1EDD64C79B5C49D24EDC9D864 /* MoneyHashPayment-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "MoneyHashPayment-xcframeworks.sh"; sourceTree = "<group>"; };
+		3C926E6F45CBB0992CF23F199C2CF07A /* Pods-MoneyHashPayment_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MoneyHashPayment_Example-Info.plist"; sourceTree = "<group>"; };
+		4157DEC4CE3C5E6A4ED1FD57A01A8061 /* Pods-MoneyHashPayment_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MoneyHashPayment_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		435355D4A00B26E4E97B5E25C8357C26 /* Pods-MoneyHashPayment_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MoneyHashPayment_Example.modulemap"; sourceTree = "<group>"; };
+		46FDD21E8F8E4A2D4141182E98BCED1C /* Pods-MoneyHashPayment_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoneyHashPayment_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		60D295D476B3923B4E134E34D4DC86D4 /* Pods-MoneyHashPayment_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MoneyHashPayment_Tests-Info.plist"; sourceTree = "<group>"; };
+		6972BA2C4CA173179D0B7CE0DC2D889A /* Pods-MoneyHashPayment_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MoneyHashPayment_Example-frameworks.sh"; sourceTree = "<group>"; };
+		6AA23A601FE3908F71DDB0C3190BC841 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6F5DFE868A2E3CCA0E3A0C57A38B30B9 /* Pods-MoneyHashPayment_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MoneyHashPayment_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7DA137E364909E34677D16ABD14A4A5D /* MoneyHashPayment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MoneyHashPayment.debug.xcconfig; sourceTree = "<group>"; };
+		826999C41F8B46BB20879756AC3FF841 /* Pods-MoneyHashPayment_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoneyHashPayment_Example.release.xcconfig"; sourceTree = "<group>"; };
+		8F088FFC06D01DA583D51A712033F03E /* Pods-MoneyHashPayment_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MoneyHashPayment_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A7AF6625EAB74C9F075D757C372A0478 /* MoneyHash.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = MoneyHash.xcframework; sourceTree = "<group>"; };
+		A874C25F31E28268185CA6BDE0249554 /* Pods-MoneyHashPayment_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MoneyHashPayment_Example"; path = Pods_MoneyHashPayment_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC35E2C236551B3C5B1557BFA14969B2 /* Pods-MoneyHashPayment_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MoneyHashPayment_Tests"; path = Pods_MoneyHashPayment_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C74B06287F1A0A1AE0FCEBAADD787998 /* Pods-MoneyHashPayment_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MoneyHashPayment_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DB03C75353B15ECAFFE20217336B29A3 /* MoneyHashShared.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = MoneyHashShared.xcframework; sourceTree = "<group>"; };
+		DC18C4D5545376C8A2783C72D0E57164 /* Pods-MoneyHashPayment_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MoneyHashPayment_Example-umbrella.h"; sourceTree = "<group>"; };
+		DD52C0E508E91DA41059EDF6AEE12912 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E401DE65816A5A683D962EC97CA75249 /* Pods-MoneyHashPayment_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MoneyHashPayment_Tests-dummy.m"; sourceTree = "<group>"; };
+		E8E24F644EBBC2C7D3E112C46DD9CE64 /* Pods-MoneyHashPayment_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MoneyHashPayment_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F3B0117AEDC72B4413816D594F2B6C01 /* Pods-MoneyHashPayment_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MoneyHashPayment_Tests.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		977195AF8E0A2AEBCEBE07256A4E9069 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				982B9DD4AA32CE0516124C386A4E7918 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8861B80481D2E744D4D8F19742CC430 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF485D37F72710BA52F56DCA7A9C15A9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EC0F8A00C974CD12CDCA8FAFD13A439 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				DD52C0E508E91DA41059EDF6AEE12912 /* LICENSE */,
+				2729BEAFFB99DFF2DA0F5EA37AD018A6 /* MoneyHashPayment.podspec */,
+				6AA23A601FE3908F71DDB0C3190BC841 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		2043FB32F3A9319F54B95EC3E20CF774 /* Pods-MoneyHashPayment_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F3B0117AEDC72B4413816D594F2B6C01 /* Pods-MoneyHashPayment_Tests.modulemap */,
+				6F5DFE868A2E3CCA0E3A0C57A38B30B9 /* Pods-MoneyHashPayment_Tests-acknowledgements.markdown */,
+				4157DEC4CE3C5E6A4ED1FD57A01A8061 /* Pods-MoneyHashPayment_Tests-acknowledgements.plist */,
+				E401DE65816A5A683D962EC97CA75249 /* Pods-MoneyHashPayment_Tests-dummy.m */,
+				60D295D476B3923B4E134E34D4DC86D4 /* Pods-MoneyHashPayment_Tests-Info.plist */,
+				E8E24F644EBBC2C7D3E112C46DD9CE64 /* Pods-MoneyHashPayment_Tests-umbrella.h */,
+				34836B1431E42C243B96FF88A58F1BA0 /* Pods-MoneyHashPayment_Tests.debug.xcconfig */,
+				046D7CCC1E0A613444F9E5F014583975 /* Pods-MoneyHashPayment_Tests.release.xcconfig */,
+			);
+			name = "Pods-MoneyHashPayment_Tests";
+			path = "Target Support Files/Pods-MoneyHashPayment_Tests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5DF8D5A2F48B8AFE48BCB0964212C1A3 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6197F27721E356FCC0CF5D34DEBF2B3B /* MoneyHashPayment */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6197F27721E356FCC0CF5D34DEBF2B3B /* MoneyHashPayment */ = {
+			isa = PBXGroup;
+			children = (
+				A0856CEE6FFEC1E4459E861634AD041F /* Frameworks */,
+				1EC0F8A00C974CD12CDCA8FAFD13A439 /* Pod */,
+				622C513A0CB0B8A37BA3DBA0A9540B1D /* Support Files */,
+			);
+			name = MoneyHashPayment;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		622C513A0CB0B8A37BA3DBA0A9540B1D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				36E21CE1EDD64C79B5C49D24EDC9D864 /* MoneyHashPayment-xcframeworks.sh */,
+				7DA137E364909E34677D16ABD14A4A5D /* MoneyHashPayment.debug.xcconfig */,
+				0EA8F3B564571CC502C2821652AB1051 /* MoneyHashPayment.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MoneyHashPayment";
+			sourceTree = "<group>";
+		};
+		7733A79DBE3895E9B4D840F45B21FF7F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6E7F9E61FA9A5EE762BE938176EE05A /* Pods-MoneyHashPayment_Example */,
+				2043FB32F3A9319F54B95EC3E20CF774 /* Pods-MoneyHashPayment_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A0856CEE6FFEC1E4459E861634AD041F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7AF6625EAB74C9F075D757C372A0478 /* MoneyHash.xcframework */,
+				DB03C75353B15ECAFFE20217336B29A3 /* MoneyHashShared.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				5DF8D5A2F48B8AFE48BCB0964212C1A3 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				E1D2DA06003346EB63CCD60D3841716A /* Products */,
+				7733A79DBE3895E9B4D840F45B21FF7F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1D2DA06003346EB63CCD60D3841716A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A874C25F31E28268185CA6BDE0249554 /* Pods-MoneyHashPayment_Example */,
+				AC35E2C236551B3C5B1557BFA14969B2 /* Pods-MoneyHashPayment_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6E7F9E61FA9A5EE762BE938176EE05A /* Pods-MoneyHashPayment_Example */ = {
+			isa = PBXGroup;
+			children = (
+				435355D4A00B26E4E97B5E25C8357C26 /* Pods-MoneyHashPayment_Example.modulemap */,
+				C74B06287F1A0A1AE0FCEBAADD787998 /* Pods-MoneyHashPayment_Example-acknowledgements.markdown */,
+				8F088FFC06D01DA583D51A712033F03E /* Pods-MoneyHashPayment_Example-acknowledgements.plist */,
+				0552057FA0D2859D51C1557CBE4517F4 /* Pods-MoneyHashPayment_Example-dummy.m */,
+				6972BA2C4CA173179D0B7CE0DC2D889A /* Pods-MoneyHashPayment_Example-frameworks.sh */,
+				3C926E6F45CBB0992CF23F199C2CF07A /* Pods-MoneyHashPayment_Example-Info.plist */,
+				DC18C4D5545376C8A2783C72D0E57164 /* Pods-MoneyHashPayment_Example-umbrella.h */,
+				46FDD21E8F8E4A2D4141182E98BCED1C /* Pods-MoneyHashPayment_Example.debug.xcconfig */,
+				826999C41F8B46BB20879756AC3FF841 /* Pods-MoneyHashPayment_Example.release.xcconfig */,
+			);
+			name = "Pods-MoneyHashPayment_Example";
+			path = "Target Support Files/Pods-MoneyHashPayment_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		562E85ACBFA258FDFBB58CCBCD53F426 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B10D89FAAC08EF4EE8F17E4544C3DB8 /* Pods-MoneyHashPayment_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		664F044111A2E32478E9BC8A45A65A98 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B286EDC33F8444C10797451D09FFA962 /* Pods-MoneyHashPayment_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		65780C34C24FB1F9E7149054779A8659 /* Pods-MoneyHashPayment_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5EADC71ECB95161240FA56E0B63B20B /* Build configuration list for PBXNativeTarget "Pods-MoneyHashPayment_Tests" */;
+			buildPhases = (
+				664F044111A2E32478E9BC8A45A65A98 /* Headers */,
+				6872462A6C68B834BE35FC138BEA4D48 /* Sources */,
+				B8861B80481D2E744D4D8F19742CC430 /* Frameworks */,
+				1AA476DA85D4172D72FE7059FDD87F47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82033103D194165D29D3288D2695F024 /* PBXTargetDependency */,
+			);
+			name = "Pods-MoneyHashPayment_Tests";
+			productName = Pods_MoneyHashPayment_Tests;
+			productReference = AC35E2C236551B3C5B1557BFA14969B2 /* Pods-MoneyHashPayment_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		9A6037AC3CAEA8A0DDF97D850EEACAF9 /* Pods-MoneyHashPayment_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6CB86E2A250F0CDDF3B65A7E89A6AED /* Build configuration list for PBXNativeTarget "Pods-MoneyHashPayment_Example" */;
+			buildPhases = (
+				562E85ACBFA258FDFBB58CCBCD53F426 /* Headers */,
+				0A38D0E3BAFD3B7AE61585B68AF3E2F3 /* Sources */,
+				977195AF8E0A2AEBCEBE07256A4E9069 /* Frameworks */,
+				3D13674660E723E84D1240A17E0378FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5D98EC842FD25D1798B5A0F271470B4 /* PBXTargetDependency */,
+			);
+			name = "Pods-MoneyHashPayment_Example";
+			productName = Pods_MoneyHashPayment_Example;
+			productReference = A874C25F31E28268185CA6BDE0249554 /* Pods-MoneyHashPayment_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E1D2DA06003346EB63CCD60D3841716A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BC38C16F3D894767A79DBDB9155A33F /* MoneyHashPayment */,
+				9A6037AC3CAEA8A0DDF97D850EEACAF9 /* Pods-MoneyHashPayment_Example */,
+				65780C34C24FB1F9E7149054779A8659 /* Pods-MoneyHashPayment_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AA476DA85D4172D72FE7059FDD87F47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D13674660E723E84D1240A17E0378FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4F2FF90E23A2F5B03FD07E402008CACC /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/MoneyHashPayment/MoneyHashPayment-xcframeworks.sh",
+				"${PODS_ROOT}/../../MoneyHash.xcframework",
+				"${PODS_ROOT}/../../MoneyHashShared.xcframework",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputPaths = (
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/MoneyHashPayment/MoneyHash.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/MoneyHashPayment/MoneyHashShared.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/MoneyHashPayment/MoneyHashPayment-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A38D0E3BAFD3B7AE61585B68AF3E2F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A20A41CA52CA8E2444F96F690D04B64 /* Pods-MoneyHashPayment_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6872462A6C68B834BE35FC138BEA4D48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED997DCD902CD5965D69E9DC9BBADA0B /* Pods-MoneyHashPayment_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82033103D194165D29D3288D2695F024 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MoneyHashPayment_Example";
+			target = 9A6037AC3CAEA8A0DDF97D850EEACAF9 /* Pods-MoneyHashPayment_Example */;
+			targetProxy = 4C1041BA0445928F193CBF645066BA8F /* PBXContainerItemProxy */;
+		};
+		F5D98EC842FD25D1798B5A0F271470B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MoneyHashPayment;
+			target = 6BC38C16F3D894767A79DBDB9155A33F /* MoneyHashPayment */;
+			targetProxy = 83D6F838DB5443FB42F932ECAA84FF42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		051AA3F0E6BC7FB9AD99F4FAC308F40F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EA8F3B564571CC502C2821652AB1051 /* MoneyHashPayment.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BC7450F9457737EE3E637BA155B56F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8700BD8671C90DF2F626DD60606CDC11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 046D7CCC1E0A613444F9E5F014583975 /* Pods-MoneyHashPayment_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MoneyHashPayment_Tests/Pods-MoneyHashPayment_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MoneyHashPayment_Tests/Pods-MoneyHashPayment_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8DB3040AE160C463BC2D470EBF4A6F3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DA137E364909E34677D16ABD14A4A5D /* MoneyHashPayment.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5E5FF7B43F231DD1F2C7BF93339CA29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 826999C41F8B46BB20879756AC3FF841 /* Pods-MoneyHashPayment_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MoneyHashPayment_Example/Pods-MoneyHashPayment_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MoneyHashPayment_Example/Pods-MoneyHashPayment_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DC8BC009B51A0FAAF23ADE412515C8B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34836B1431E42C243B96FF88A58F1BA0 /* Pods-MoneyHashPayment_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MoneyHashPayment_Tests/Pods-MoneyHashPayment_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MoneyHashPayment_Tests/Pods-MoneyHashPayment_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ED36B1343CC0CC6F2E319062A82DD355 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46FDD21E8F8E4A2D4141182E98BCED1C /* Pods-MoneyHashPayment_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MoneyHashPayment_Example/Pods-MoneyHashPayment_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MoneyHashPayment_Example/Pods-MoneyHashPayment_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BC7450F9457737EE3E637BA155B56F7 /* Debug */,
+				8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABE3019D0385039671FDA28EB677A766 /* Build configuration list for PBXAggregateTarget "MoneyHashPayment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DB3040AE160C463BC2D470EBF4A6F3B /* Debug */,
+				051AA3F0E6BC7FB9AD99F4FAC308F40F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6CB86E2A250F0CDDF3B65A7E89A6AED /* Build configuration list for PBXNativeTarget "Pods-MoneyHashPayment_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED36B1343CC0CC6F2E319062A82DD355 /* Debug */,
+				D5E5FF7B43F231DD1F2C7BF93339CA29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5EADC71ECB95161240FA56E0B63B20B /* Build configuration list for PBXNativeTarget "Pods-MoneyHashPayment_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC8BC009B51A0FAAF23ADE412515C8B2 /* Debug */,
+				8700BD8671C90DF2F626DD60606CDC11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

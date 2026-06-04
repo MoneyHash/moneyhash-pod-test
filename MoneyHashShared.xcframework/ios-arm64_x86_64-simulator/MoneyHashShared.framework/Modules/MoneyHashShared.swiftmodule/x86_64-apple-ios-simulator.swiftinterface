@@ -1,0 +1,2555 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -O -module-name MoneyHashShared
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
+import Foundation
+@_exported import MoneyHashShared
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public enum Skie {
+  public enum RuntimeKotlin {
+    public enum SkieColdFlowIterator {
+      public typealias __Kotlin = MoneyHashShared.SkieColdFlowIterator
+    }
+    public enum SkieKotlinFlow {
+      public typealias __Kotlin = MoneyHashShared.SkieKotlinFlow
+    }
+    public enum SkieKotlinMutableSharedFlow {
+      public typealias __Kotlin = MoneyHashShared.SkieKotlinMutableSharedFlow
+    }
+    public enum SkieKotlinMutableStateFlow {
+      public typealias __Kotlin = MoneyHashShared.SkieKotlinMutableStateFlow
+    }
+    public enum SkieKotlinOptionalFlow {
+      public typealias __Kotlin = MoneyHashShared.SkieKotlinOptionalFlow
+    }
+    public enum SkieKotlinOptionalMutableSharedFlow {
+      public typealias __Kotlin = MoneyHashShared.SkieKotlinOptionalMutableSharedFlow
+    }
+    public enum SkieKotlinOptionalMutableStateFlow {
+      public typealias __Kotlin = MoneyHashShared.SkieKotlinOptionalMutableStateFlow
+    }
+    public enum SkieKotlinOptionalSharedFlow {
+      public typealias __Kotlin = MoneyHashShared.SkieKotlinOptionalSharedFlow
+    }
+    public enum SkieKotlinOptionalStateFlow {
+      public typealias __Kotlin = MoneyHashShared.SkieKotlinOptionalStateFlow
+    }
+    public enum SkieKotlinSharedFlow {
+      public typealias __Kotlin = MoneyHashShared.SkieKotlinSharedFlow
+    }
+    public enum SkieKotlinStateFlow {
+      public typealias __Kotlin = MoneyHashShared.SkieKotlinStateFlow
+    }
+    public enum Skie_CancellationHandler {
+      public typealias __Kotlin = MoneyHashShared.Skie_CancellationHandler
+    }
+    public enum Skie_DispatcherDelegate {
+      public typealias __Kotlin = MoneyHashShared.Skie_DispatcherDelegate
+    }
+    public enum Skie_SuspendHandler {
+      public typealias __Kotlin = MoneyHashShared.Skie_SuspendHandler
+    }
+    public enum Skie_SuspendResult {
+      public typealias __Kotlin = MoneyHashShared.Skie_SuspendResult
+      public enum Success {
+        public typealias __Kotlin = MoneyHashShared.Skie_SuspendResult.Success
+      }
+      public enum Error {
+        public typealias __Kotlin = MoneyHashShared.Skie_SuspendResult.Error
+      }
+      public enum Canceled {
+        public typealias __Kotlin = MoneyHashShared.Skie_SuspendResult.Canceled
+      }
+    }
+  }
+  public typealias co_touchlab_skie__runtime_kotlin = MoneyHashShared.Skie.RuntimeKotlin
+  public enum KotlinxCoroutinesCore {
+    public enum Flow {
+      public typealias __Kotlin = MoneyHashShared.Kotlinx_coroutines_coreFlow
+    }
+    public enum StateFlow {
+      public typealias __Kotlin = MoneyHashShared.Kotlinx_coroutines_coreStateFlow
+    }
+    public enum SharedFlow {
+      public typealias __Kotlin = MoneyHashShared.Kotlinx_coroutines_coreSharedFlow
+    }
+    public enum MutableSharedFlow {
+      public typealias __Kotlin = MoneyHashShared.Kotlinx_coroutines_coreMutableSharedFlow
+    }
+    public enum MutableStateFlow {
+      public typealias __Kotlin = MoneyHashShared.Kotlinx_coroutines_coreMutableStateFlow
+    }
+    public enum Runnable {
+      public typealias __Kotlin = MoneyHashShared.Kotlinx_coroutines_coreRunnable
+    }
+    public enum SelectClause0 {
+    }
+    public enum SelectClause {
+    }
+    public enum SelectInstance {
+    }
+    public enum SelectClause1 {
+    }
+    public enum SelectClause2 {
+    }
+  }
+  public typealias org_jetbrains_kotlinx__kotlinx_coroutines_core = MoneyHashShared.Skie.KotlinxCoroutinesCore
+  public enum KtorUtils {
+    public enum Pipeline {
+    }
+  }
+  public typealias io_ktor__ktor_utils = MoneyHashShared.Skie.KtorUtils
+  public enum moneyhash_kmm__MoneyHashShared {
+    public enum RequestContent {
+    }
+    public enum CustomFieldValue {
+    }
+    public enum NativePayData {
+    }
+    public enum CardState {
+    }
+    public enum IntentStateDetails {
+    }
+    public enum CardFormExceptions {
+    }
+    public enum ValidationException {
+    }
+    public enum VaultCollectNetworkError {
+    }
+  }
+  public typealias moneyhash_kmm__MoneyHashShared_ = MoneyHashShared.Skie.moneyhash_kmm__MoneyHashShared
+  public enum KotlinxSerializationCore {
+    public enum SerialKind {
+    }
+    public enum SerializersModule {
+    }
+    public enum PolymorphicKind {
+    }
+    public enum PrimitiveKind {
+    }
+    public enum StructureKind {
+    }
+  }
+  public typealias org_jetbrains_kotlinx__kotlinx_serialization_core = MoneyHashShared.Skie.KotlinxSerializationCore
+  public enum KtorHttp {
+    public enum OutgoingContent {
+    }
+  }
+  public typealias io_ktor__ktor_http = MoneyHashShared.Skie.KtorHttp
+  public enum KotlinxIoCore {
+    public enum Source {
+    }
+    public enum Sink {
+    }
+  }
+  public typealias org_jetbrains_kotlinx__kotlinx_io_core = MoneyHashShared.Skie.KotlinxIoCore
+  public enum KotlinxSerializationJson {
+    public enum JsonElement {
+    }
+    public enum Json {
+    }
+    public enum JsonPrimitive {
+    }
+  }
+  public typealias org_jetbrains_kotlinx__kotlinx_serialization_json = MoneyHashShared.Skie.KotlinxSerializationJson
+}
+@_hasMissingDesignatedInitializers public class SkieSwiftFlowIterator<T> : _Concurrency.AsyncIteratorProtocol {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func next() async -> T?
+  #endif
+  @objc deinit
+  public typealias Element = T
+  @available(iOS 18.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, macOS 15.0, *)
+  @_implements(_Concurrency.AsyncIteratorProtocol, Failure) public typealias __AsyncIteratorProtocol_Failure = Swift.Never
+}
+public protocol SkieSwiftFlowProtocol<Element> : _Concurrency.AsyncSequence {
+  associatedtype Element
+  associatedtype Delegate : MoneyHashShared.Kotlinx_coroutines_coreFlow
+}
+@_hasMissingDesignatedInitializers final public class SkieSwiftFlow<T> : MoneyHashShared.SkieSwiftFlowProtocol, Swift._ObjectiveCBridgeable {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _forceBridgeFromObjectiveC(_ source: MoneyHashShared.SkieKotlinFlow<Swift.AnyObject>, result: inout MoneyHashShared.SkieSwiftFlow<T>?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _conditionallyBridgeFromObjectiveC(_ source: MoneyHashShared.SkieKotlinFlow<Swift.AnyObject>, result: inout MoneyHashShared.SkieSwiftFlow<T>?) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _unconditionallyBridgeFromObjectiveC(_ source: MoneyHashShared.SkieKotlinFlow<Swift.AnyObject>?) -> Self
+  #endif
+  final public func _bridgeToObjectiveC() -> MoneyHashShared.SkieKotlinFlow<Swift.AnyObject>
+  final public func makeAsyncIterator() -> MoneyHashShared.SkieSwiftFlowIterator<T>
+  public typealias AsyncIterator = MoneyHashShared.SkieSwiftFlowIterator<T>
+  public typealias Element = T
+  public typealias _ObjectiveCType = MoneyHashShared.SkieKotlinFlow<Swift.AnyObject>
+  public typealias Delegate = any MoneyHashShared.Kotlinx_coroutines_coreFlow
+  @available(iOS 18.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, macOS 15.0, *)
+  @_implements(_Concurrency.AsyncSequence, Failure) public typealias __AsyncSequence_Failure = Swift.Never
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers final public class SkieSwiftOptionalFlow<T> : MoneyHashShared.SkieSwiftFlowProtocol, Swift._ObjectiveCBridgeable {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _forceBridgeFromObjectiveC(_ source: MoneyHashShared.SkieKotlinOptionalFlow<Swift.AnyObject>, result: inout MoneyHashShared.SkieSwiftOptionalFlow<T>?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _conditionallyBridgeFromObjectiveC(_ source: MoneyHashShared.SkieKotlinOptionalFlow<Swift.AnyObject>, result: inout MoneyHashShared.SkieSwiftOptionalFlow<T>?) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _unconditionallyBridgeFromObjectiveC(_ source: MoneyHashShared.SkieKotlinOptionalFlow<Swift.AnyObject>?) -> Self
+  #endif
+  final public func _bridgeToObjectiveC() -> MoneyHashShared.SkieKotlinOptionalFlow<Swift.AnyObject>
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func makeAsyncIterator() -> MoneyHashShared.SkieSwiftFlowIterator<T?>
+  #endif
+  public typealias AsyncIterator = MoneyHashShared.SkieSwiftFlowIterator<T?>
+  public typealias Element = T?
+  public typealias _ObjectiveCType = MoneyHashShared.SkieKotlinOptionalFlow<Swift.AnyObject>
+  public typealias Delegate = any MoneyHashShared.Kotlinx_coroutines_coreFlow
+  @available(iOS 18.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, macOS 15.0, *)
+  @_implements(_Concurrency.AsyncSequence, Failure) public typealias __AsyncSequence_Failure = Swift.Never
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers final public class SkieSwiftSharedFlow<T> : MoneyHashShared.SkieSwiftFlowProtocol, Swift._ObjectiveCBridgeable {
+  final public var replayCache: [T] {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _forceBridgeFromObjectiveC(_ source: MoneyHashShared.SkieKotlinSharedFlow<Swift.AnyObject>, result: inout MoneyHashShared.SkieSwiftSharedFlow<T>?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _conditionallyBridgeFromObjectiveC(_ source: MoneyHashShared.SkieKotlinSharedFlow<Swift.AnyObject>, result: inout MoneyHashShared.SkieSwiftSharedFlow<T>?) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _unconditionallyBridgeFromObjectiveC(_ source: MoneyHashShared.SkieKotlinSharedFlow<Swift.AnyObject>?) -> Self
+  #endif
+  final public func _bridgeToObjectiveC() -> MoneyHashShared.SkieKotlinSharedFlow<Swift.AnyObject>
+  final public func makeAsyncIterator() -> MoneyHashShared.SkieSwiftFlowIterator<T>
+  public typealias AsyncIterator = MoneyHashShared.SkieSwiftFlowIterator<T>
+  public typealias Element = T
+  public typealias _ObjectiveCType = MoneyHashShared.SkieKotlinSharedFlow<Swift.AnyObject>
+  public typealias Delegate = any MoneyHashShared.Kotlinx_coroutines_coreSharedFlow
+  @available(iOS 18.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, macOS 15.0, *)
+  @_implements(_Concurrency.AsyncSequence, Failure) public typealias __AsyncSequence_Failure = Swift.Never
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers final public class SkieSwiftOptionalSharedFlow<T> : MoneyHashShared.SkieSwiftFlowProtocol, Swift._ObjectiveCBridgeable {
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public var replayCache: [T?] {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _forceBridgeFromObjectiveC(_ source: MoneyHashShared.SkieKotlinOptionalSharedFlow<Swift.AnyObject>, result: inout MoneyHashShared.SkieSwiftOptionalSharedFlow<T>?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _conditionallyBridgeFromObjectiveC(_ source: MoneyHashShared.SkieKotlinOptionalSharedFlow<Swift.AnyObject>, result: inout MoneyHashShared.SkieSwiftOptionalSharedFlow<T>?) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _unconditionallyBridgeFromObjectiveC(_ source: MoneyHashShared.SkieKotlinOptionalSharedFlow<Swift.AnyObject>?) -> Self
+  #endif
+  final public func _bridgeToObjectiveC() -> MoneyHashShared.SkieKotlinOptionalSharedFlow<Swift.AnyObject>
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func makeAsyncIterator() -> MoneyHashShared.SkieSwiftFlowIterator<T?>
+  #endif
+  public typealias AsyncIterator = MoneyHashShared.SkieSwiftFlowIterator<T?>
+  public typealias Element = T?
+  public typealias _ObjectiveCType = MoneyHashShared.SkieKotlinOptionalSharedFlow<Swift.AnyObject>
+  public typealias Delegate = any MoneyHashShared.Kotlinx_coroutines_coreSharedFlow
+  @available(iOS 18.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, macOS 15.0, *)
+  @_implements(_Concurrency.AsyncSequence, Failure) public typealias __AsyncSequence_Failure = Swift.Never
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers final public class SkieSwiftMutableSharedFlow<T> : MoneyHashShared.SkieSwiftFlowProtocol, Swift._ObjectiveCBridgeable {
+  final public var subscriptionCount: MoneyHashShared.SkieSwiftStateFlow<MoneyHashShared.KotlinInt> {
+    get
+  }
+  final public var replayCache: [T] {
+    get
+  }
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  final public func emit(value: T) async throws
+  final public func tryEmit(value: T) -> Swift.Bool
+  final public func resetReplayCache()
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _forceBridgeFromObjectiveC(_ source: MoneyHashShared.SkieKotlinMutableSharedFlow<Swift.AnyObject>, result: inout MoneyHashShared.SkieSwiftMutableSharedFlow<T>?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _conditionallyBridgeFromObjectiveC(_ source: MoneyHashShared.SkieKotlinMutableSharedFlow<Swift.AnyObject>, result: inout MoneyHashShared.SkieSwiftMutableSharedFlow<T>?) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _unconditionallyBridgeFromObjectiveC(_ source: MoneyHashShared.SkieKotlinMutableSharedFlow<Swift.AnyObject>?) -> Self
+  #endif
+  final public func _bridgeToObjectiveC() -> MoneyHashShared.SkieKotlinMutableSharedFlow<Swift.AnyObject>
+  final public func makeAsyncIterator() -> MoneyHashShared.SkieSwiftFlowIterator<T>
+  public typealias AsyncIterator = MoneyHashShared.SkieSwiftFlowIterator<T>
+  public typealias Element = T
+  public typealias _ObjectiveCType = MoneyHashShared.SkieKotlinMutableSharedFlow<Swift.AnyObject>
+  public typealias Delegate = any MoneyHashShared.Kotlinx_coroutines_coreMutableSharedFlow
+  @available(iOS 18.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, macOS 15.0, *)
+  @_implements(_Concurrency.AsyncSequence, Failure) public typealias __AsyncSequence_Failure = Swift.Never
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers final public class SkieSwiftOptionalMutableSharedFlow<T> : MoneyHashShared.SkieSwiftFlowProtocol, Swift._ObjectiveCBridgeable {
+  final public var subscriptionCount: MoneyHashShared.SkieSwiftStateFlow<MoneyHashShared.KotlinInt> {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public var replayCache: [T?] {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  final public func emit(value: T?) async throws
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func tryEmit(value: T?) -> Swift.Bool
+  #endif
+  final public func resetReplayCache()
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _forceBridgeFromObjectiveC(_ source: MoneyHashShared.SkieKotlinOptionalMutableSharedFlow<Swift.AnyObject>, result: inout MoneyHashShared.SkieSwiftOptionalMutableSharedFlow<T>?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _conditionallyBridgeFromObjectiveC(_ source: MoneyHashShared.SkieKotlinOptionalMutableSharedFlow<Swift.AnyObject>, result: inout MoneyHashShared.SkieSwiftOptionalMutableSharedFlow<T>?) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _unconditionallyBridgeFromObjectiveC(_ source: MoneyHashShared.SkieKotlinOptionalMutableSharedFlow<Swift.AnyObject>?) -> Self
+  #endif
+  final public func _bridgeToObjectiveC() -> MoneyHashShared.SkieKotlinOptionalMutableSharedFlow<Swift.AnyObject>
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func makeAsyncIterator() -> MoneyHashShared.SkieSwiftFlowIterator<T?>
+  #endif
+  public typealias AsyncIterator = MoneyHashShared.SkieSwiftFlowIterator<T?>
+  public typealias Element = T?
+  public typealias _ObjectiveCType = MoneyHashShared.SkieKotlinOptionalMutableSharedFlow<Swift.AnyObject>
+  public typealias Delegate = any MoneyHashShared.Kotlinx_coroutines_coreMutableSharedFlow
+  @available(iOS 18.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, macOS 15.0, *)
+  @_implements(_Concurrency.AsyncSequence, Failure) public typealias __AsyncSequence_Failure = Swift.Never
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers final public class SkieSwiftStateFlow<T> : MoneyHashShared.SkieSwiftFlowProtocol, Swift._ObjectiveCBridgeable {
+  final public var value: T {
+    get
+  }
+  final public var replayCache: [T] {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _forceBridgeFromObjectiveC(_ source: MoneyHashShared.SkieKotlinStateFlow<Swift.AnyObject>, result: inout MoneyHashShared.SkieSwiftStateFlow<T>?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _conditionallyBridgeFromObjectiveC(_ source: MoneyHashShared.SkieKotlinStateFlow<Swift.AnyObject>, result: inout MoneyHashShared.SkieSwiftStateFlow<T>?) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _unconditionallyBridgeFromObjectiveC(_ source: MoneyHashShared.SkieKotlinStateFlow<Swift.AnyObject>?) -> Self
+  #endif
+  final public func _bridgeToObjectiveC() -> MoneyHashShared.SkieKotlinStateFlow<Swift.AnyObject>
+  final public func makeAsyncIterator() -> MoneyHashShared.SkieSwiftFlowIterator<T>
+  public typealias AsyncIterator = MoneyHashShared.SkieSwiftFlowIterator<T>
+  public typealias Element = T
+  public typealias _ObjectiveCType = MoneyHashShared.SkieKotlinStateFlow<Swift.AnyObject>
+  public typealias Delegate = any MoneyHashShared.Kotlinx_coroutines_coreStateFlow
+  @available(iOS 18.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, macOS 15.0, *)
+  @_implements(_Concurrency.AsyncSequence, Failure) public typealias __AsyncSequence_Failure = Swift.Never
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers final public class SkieSwiftOptionalStateFlow<T> : MoneyHashShared.SkieSwiftFlowProtocol, Swift._ObjectiveCBridgeable {
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public var value: T? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public var replayCache: [T?] {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _forceBridgeFromObjectiveC(_ source: MoneyHashShared.SkieKotlinOptionalStateFlow<Swift.AnyObject>, result: inout MoneyHashShared.SkieSwiftOptionalStateFlow<T>?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _conditionallyBridgeFromObjectiveC(_ source: MoneyHashShared.SkieKotlinOptionalStateFlow<Swift.AnyObject>, result: inout MoneyHashShared.SkieSwiftOptionalStateFlow<T>?) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _unconditionallyBridgeFromObjectiveC(_ source: MoneyHashShared.SkieKotlinOptionalStateFlow<Swift.AnyObject>?) -> Self
+  #endif
+  final public func _bridgeToObjectiveC() -> MoneyHashShared.SkieKotlinOptionalStateFlow<Swift.AnyObject>
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func makeAsyncIterator() -> MoneyHashShared.SkieSwiftFlowIterator<T?>
+  #endif
+  public typealias AsyncIterator = MoneyHashShared.SkieSwiftFlowIterator<T?>
+  public typealias Element = T?
+  public typealias _ObjectiveCType = MoneyHashShared.SkieKotlinOptionalStateFlow<Swift.AnyObject>
+  public typealias Delegate = any MoneyHashShared.Kotlinx_coroutines_coreStateFlow
+  @available(iOS 18.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, macOS 15.0, *)
+  @_implements(_Concurrency.AsyncSequence, Failure) public typealias __AsyncSequence_Failure = Swift.Never
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers final public class SkieSwiftMutableStateFlow<T> : MoneyHashShared.SkieSwiftFlowProtocol, Swift._ObjectiveCBridgeable {
+  final public var value: T {
+    get
+    set(value)
+  }
+  final public var replayCache: [T] {
+    get
+  }
+  final public var subscriptionCount: MoneyHashShared.SkieSwiftStateFlow<MoneyHashShared.KotlinInt> {
+    get
+  }
+  final public func compareAndSet(expect: T, update: T) -> Swift.Bool
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  final public func emit(value: T) async throws
+  final public func tryEmit(value: T) -> Swift.Bool
+  final public func resetReplayCache()
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _forceBridgeFromObjectiveC(_ source: MoneyHashShared.SkieKotlinMutableStateFlow<Swift.AnyObject>, result: inout MoneyHashShared.SkieSwiftMutableStateFlow<T>?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _conditionallyBridgeFromObjectiveC(_ source: MoneyHashShared.SkieKotlinMutableStateFlow<Swift.AnyObject>, result: inout MoneyHashShared.SkieSwiftMutableStateFlow<T>?) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _unconditionallyBridgeFromObjectiveC(_ source: MoneyHashShared.SkieKotlinMutableStateFlow<Swift.AnyObject>?) -> Self
+  #endif
+  final public func _bridgeToObjectiveC() -> MoneyHashShared.SkieKotlinMutableStateFlow<Swift.AnyObject>
+  final public func makeAsyncIterator() -> MoneyHashShared.SkieSwiftFlowIterator<T>
+  public typealias AsyncIterator = MoneyHashShared.SkieSwiftFlowIterator<T>
+  public typealias Element = T
+  public typealias _ObjectiveCType = MoneyHashShared.SkieKotlinMutableStateFlow<Swift.AnyObject>
+  public typealias Delegate = any MoneyHashShared.Kotlinx_coroutines_coreMutableStateFlow
+  @available(iOS 18.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, macOS 15.0, *)
+  @_implements(_Concurrency.AsyncSequence, Failure) public typealias __AsyncSequence_Failure = Swift.Never
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers final public class SkieSwiftOptionalMutableStateFlow<T> : MoneyHashShared.SkieSwiftFlowProtocol, Swift._ObjectiveCBridgeable {
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public var value: T? {
+    get
+    set(value)
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public var replayCache: [T?] {
+    get
+  }
+  #endif
+  final public var subscriptionCount: MoneyHashShared.SkieSwiftStateFlow<MoneyHashShared.KotlinInt> {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func compareAndSet(expect: T?, update: T?) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  final public func emit(value: T?) async throws
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func tryEmit(value: T?) -> Swift.Bool
+  #endif
+  final public func resetReplayCache()
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _forceBridgeFromObjectiveC(_ source: MoneyHashShared.SkieKotlinOptionalMutableStateFlow<Swift.AnyObject>, result: inout MoneyHashShared.SkieSwiftOptionalMutableStateFlow<T>?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _conditionallyBridgeFromObjectiveC(_ source: MoneyHashShared.SkieKotlinOptionalMutableStateFlow<Swift.AnyObject>, result: inout MoneyHashShared.SkieSwiftOptionalMutableStateFlow<T>?) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _unconditionallyBridgeFromObjectiveC(_ source: MoneyHashShared.SkieKotlinOptionalMutableStateFlow<Swift.AnyObject>?) -> Self
+  #endif
+  final public func _bridgeToObjectiveC() -> MoneyHashShared.SkieKotlinOptionalMutableStateFlow<Swift.AnyObject>
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func makeAsyncIterator() -> MoneyHashShared.SkieSwiftFlowIterator<T?>
+  #endif
+  public typealias AsyncIterator = MoneyHashShared.SkieSwiftFlowIterator<T?>
+  public typealias Element = T?
+  public typealias _ObjectiveCType = MoneyHashShared.SkieKotlinOptionalMutableStateFlow<Swift.AnyObject>
+  public typealias Delegate = any MoneyHashShared.Kotlinx_coroutines_coreMutableStateFlow
+  @available(iOS 18.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, macOS 15.0, *)
+  @_implements(_Concurrency.AsyncSequence, Failure) public typealias __AsyncSequence_Failure = Swift.Never
+  @objc deinit
+}
+extension MoneyHashShared.Skie.RuntimeKotlin.SkieColdFlowIterator {
+  public struct __Suspend<E> where E : AnyObject {
+    public let __kotlinObject: MoneyHashShared.SkieColdFlowIterator<E>
+    public init(_ __kotlinObject: MoneyHashShared.SkieColdFlowIterator<E>)
+  }
+}
+public func skie<E>(_ kotlinObject: MoneyHashShared.SkieColdFlowIterator<E>) -> MoneyHashShared.Skie.RuntimeKotlin.SkieColdFlowIterator.__Suspend<E> where E : AnyObject
+extension MoneyHashShared.Skie.RuntimeKotlin.SkieColdFlowIterator.__Suspend {
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func hasNext() async throws -> MoneyHashShared.KotlinBoolean
+}
+extension MoneyHashShared.Kotlinx_coroutines_coreFlow {
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func collect(collector: any MoneyHashShared.Kotlinx_coroutines_coreFlowCollector) async throws
+}
+extension MoneyHashShared.Kotlinx_coroutines_coreFlowCollector {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func emit(value: Any?) async throws
+  #endif
+}
+extension MoneyHashShared.AuthUseCase {
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func login(email: Swift.String, password: Swift.String) async throws -> MoneyHashShared.AuthResponse
+}
+extension MoneyHashShared.AuthService {
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func login(email: Swift.String, password: Swift.String) async throws -> MoneyHashShared.AuthResponse
+}
+extension MoneyHashShared.BaseService {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func delete(requestBuilder: @escaping (MoneyHashShared.RequestBuilder) -> Swift.Void) async throws -> Any?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func get(requestBuilder: @escaping (MoneyHashShared.RequestBuilder) -> Swift.Void) async throws -> Any?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func patch(requestBuilder: @escaping (MoneyHashShared.RequestBuilder) -> Swift.Void) async throws -> Any?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func post(requestBuilder: @escaping (MoneyHashShared.RequestBuilder) -> Swift.Void) async throws -> Any?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func put(requestBuilder: @escaping (MoneyHashShared.RequestBuilder) -> Swift.Void) async throws -> Any?
+  #endif
+}
+extension MoneyHashShared.Kotlinx_coroutines_coreJob {
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func join() async throws
+}
+extension MoneyHashShared.Skie.KtorUtils.Pipeline {
+  public struct __Suspend<TSubject, TContext> where TSubject : AnyObject, TContext : AnyObject {
+    public let __kotlinObject: MoneyHashShared.Ktor_utilsPipeline<TSubject, TContext>
+    public init(_ __kotlinObject: MoneyHashShared.Ktor_utilsPipeline<TSubject, TContext>)
+  }
+}
+public func skie<TSubject, TContext>(_ kotlinObject: MoneyHashShared.Ktor_utilsPipeline<TSubject, TContext>) -> MoneyHashShared.Skie.KtorUtils.Pipeline.__Suspend<TSubject, TContext> where TSubject : AnyObject, TContext : AnyObject
+extension MoneyHashShared.Skie.KtorUtils.Pipeline.__Suspend {
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func execute(context: TContext, subject: TSubject) async throws -> TSubject
+}
+extension MoneyHashShared.KotlinSuspendFunction2 {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func invoke(p1: Any?, p2: Any?) async throws -> Any?
+  #endif
+}
+extension MoneyHashShared.Ktor_client_coreHttpClientCall {
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func body(info: MoneyHashShared.Ktor_utilsTypeInfo) async throws -> Any
+  #if compiler(>=5.3) && $NonescapableTypes
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func bodyNullable(info: MoneyHashShared.Ktor_utilsTypeInfo) async throws -> Any?
+  #endif
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func getResponseContent() async throws -> any MoneyHashShared.Ktor_ioByteReadChannel
+}
+extension MoneyHashShared.Ktor_ioByteReadChannel {
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func awaitContent(min: Swift.Int32) async throws -> MoneyHashShared.KotlinBoolean
+}
+extension MoneyHashShared.Ktor_client_coreHttpClientEngine {
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func execute(data: MoneyHashShared.Ktor_client_coreHttpRequestData) async throws -> MoneyHashShared.Ktor_client_coreHttpResponseData
+}
+extension MoneyHashShared.VaultService {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func postTokens(accessToken: Swift.String, cardDetails: MoneyHashShared.CardFields, isTempToken: MoneyHashShared.KotlinBoolean?) async throws -> MoneyHashShared.VaultData
+  #endif
+}
+extension MoneyHashShared.SandboxService {
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func getDemoIntents(accessToken: Swift.String) async throws -> MoneyHashShared.DemoIntentResponse
+}
+extension MoneyHashShared.PaymentService {
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func createCardToken(cardIntentId: Swift.String, cardData: MoneyHashShared.VaultData) async throws -> MoneyHashShared.CardDetails
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func deleteSavedCard(cardTokenId: Swift.String, secret: Swift.String) async throws -> MoneyHashShared.StatusResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func generateAccessToken(publicKey: Swift.String) async throws -> MoneyHashShared.AccessTokenResponse
+  #if compiler(>=5.3) && $NonescapableTypes
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func getApplePayBinLookup(receipt: Swift.String, receiptBillingData: [Swift.String : Swift.String]?, methodID: Swift.String, flowId: Swift.String?) async throws -> MoneyHashShared.LookupResponse
+  #endif
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func getBankAccountInformation(cardIntentId: Swift.String) async throws -> MoneyHashShared.BankAccountDetails
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func getCardBinLookup(cardData: MoneyHashShared.VaultData) async throws -> MoneyHashShared.LookupResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func getCardInformation(cardIntentId: Swift.String) async throws -> MoneyHashShared.CardDetails
+  #if compiler(>=5.3) && $NonescapableTypes
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func getInstallmentPlans(amount: MoneyHashShared.KotlinDouble?, currency: Swift.String, first6Digits: Swift.String?) async throws -> MoneyHashShared.InstallmentPlansResponse
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func getMethods(publicKey: Swift.String, currency: Swift.String, amount: MoneyHashShared.KotlinDouble?, customer: Swift.String?, flowId: Swift.String?, operation: MoneyHashShared.IntentOperation?, customFields: [Swift.String : MoneyHashShared.CustomFieldValue]?) async throws -> MoneyHashShared.PaymentMethodResponse
+  #endif
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func getPaymentInformation(paymentIntentId: Swift.String) async throws -> MoneyHashShared.PaymentIntentData
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func getPayoutInformation(payoutIntentId: Swift.String) async throws -> MoneyHashShared.PayoutDetails
+  #if compiler(>=5.3) && $NonescapableTypes
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func getSubscriptionPlanGroups(limit: MoneyHashShared.KotlinInt?, offset: MoneyHashShared.KotlinInt?, currency: Swift.String?) async throws -> MoneyHashShared.SubscriptionPlanGroupsResponse
+  #endif
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func getSubscriptionPlans(planGroupId: Swift.String, customerId: Swift.String) async throws -> [MoneyHashShared.SubscriptionPlan]
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func resetPaymentSelectedMethod(paymentIntentId: Swift.String) async throws -> MoneyHashShared.PaymentIntentData
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func resetPayoutSelectedMethod(payoutIntentId: Swift.String) async throws -> MoneyHashShared.PayoutDetails
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func selectInstallmentPlan(intentId: Swift.String, installmentPlanData: MoneyHashShared.InstallmentPlanData) async throws -> MoneyHashShared.PaymentIntentData
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func selectSubscriptionPlan(planGroupId: Swift.String, customerId: Swift.String, planId: Swift.String) async throws -> MoneyHashShared.PaymentIntentData
+  #if compiler(>=5.3) && $NonescapableTypes
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func submitCardCVV(intentId: Swift.String, cvv: Swift.String, installmentPlanData: MoneyHashShared.InstallmentPlanData?) async throws -> MoneyHashShared.PaymentIntentData
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func submitForm(intentId: Swift.String, currentSelectedMethod: Swift.String, cardFields: [Swift.String : Swift.String]?, billingFields: [Swift.String : Swift.String]?, shippingFields: [Swift.String : Swift.String]?, vaultData: MoneyHashShared.VaultData?, saveCard: MoneyHashShared.KotlinBoolean?, installmentPlanData: MoneyHashShared.InstallmentPlanData?) async throws -> MoneyHashShared.PaymentIntentData
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func submitReceipt(paymentIntentId: Swift.String, receipt: Swift.String, receiptBillingData: [Swift.String : Swift.String]?) async throws -> MoneyHashShared.PaymentInformation
+  #endif
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func tokenizeReceipt(receipt: Swift.String, methodId: Swift.String, cardTokenIntentId: Swift.String) async throws -> Swift.String
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func updateDiscount(intentId: Swift.String, discount: MoneyHashShared.DiscountItem) async throws -> MoneyHashShared.DiscountResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func updateFees(intentId: Swift.String, fees: [MoneyHashShared.FeeItem]) async throws -> MoneyHashShared.FeesResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func useBankAccountToken(paymentIntentId: Swift.String, bankAccountTokenId: Swift.String) async throws -> MoneyHashShared.PaymentIntentData
+  #if compiler(>=5.3) && $NonescapableTypes
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func usePaymentMethod(intentId: Swift.String, methodName: Swift.String, useWalletBalance: MoneyHashShared.KotlinBoolean?, installmentPlanData: MoneyHashShared.InstallmentPlanData?) async throws -> MoneyHashShared.PaymentIntentData
+  #endif
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func usePayoutMethod(intentId: Swift.String, methodName: Swift.String) async throws -> MoneyHashShared.PayoutDetails
+  #if compiler(>=5.3) && $NonescapableTypes
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func useSavedCard(paymentIntentId: Swift.String, cardTokenId: Swift.String, cvv: Swift.String?, useWalletBalance: MoneyHashShared.KotlinBoolean?, installmentPlanData: MoneyHashShared.InstallmentPlanData?) async throws -> MoneyHashShared.PaymentIntentData
+  #endif
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func useSelfWallet(paymentIntentId: Swift.String) async throws -> MoneyHashShared.PaymentIntentData
+}
+extension MoneyHashShared.PaymentUseCase {
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func deleteSavedCard(cardTokenId: Swift.String, intentSecret: Swift.String) async throws -> MoneyHashShared.StatusResponse
+  #if compiler(>=5.3) && $NonescapableTypes
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func getApplePayBinLookup(receipt: Swift.String, receiptBillingData: [Swift.String : Swift.String]?, methodID: Swift.String, flowId: Swift.String?) async throws -> MoneyHashShared.LookupResponse
+  #endif
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func getBankAccountInformation(cardIntentId: Swift.String) async throws -> MoneyHashShared.NativePayData.BankAccountPay
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func getCardInformation(cardIntentId: Swift.String) async throws -> MoneyHashShared.CardState
+  #if compiler(>=5.3) && $NonescapableTypes
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func getInstallmentPlans(amount: MoneyHashShared.KotlinDouble?, currency: Swift.String, first6Digits: Swift.String?) async throws -> [MoneyHashShared.InstallmentPlan]
+  #endif
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func getMethods(paymentIntentId: Swift.String, type: MoneyHashShared.Type_) async throws -> MoneyHashShared.IntentMethods
+  #if compiler(>=5.3) && $NonescapableTypes
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func getMethods(currency: Swift.String, amount: MoneyHashShared.KotlinDouble?, customer: Swift.String?, flowId: Swift.String?, operation: MoneyHashShared.IntentOperation?, customFields: [Swift.String : MoneyHashShared.CustomFieldValue]?) async throws -> MoneyHashShared.IntentMethods
+  #endif
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func getPaymentInformation(paymentId: Swift.String) async throws -> MoneyHashShared.PaymentIntentData
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func getPayoutInformation(payoutId: Swift.String) async throws -> MoneyHashShared.PayoutDetails
+  #if compiler(>=5.3) && $NonescapableTypes
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func getSubscriptionPlanGroups(limit: MoneyHashShared.KotlinInt?, offset: MoneyHashShared.KotlinInt?, currency: Swift.String?) async throws -> MoneyHashShared.SubscriptionPlanGroupsResponse
+  #endif
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func getSubscriptionPlans(planGroupId: Swift.String, customerId: Swift.String) async throws -> [MoneyHashShared.SubscriptionPlan]
+  #if compiler(>=5.3) && $NonescapableTypes
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func proceedWithPaymentMethod(intentId: Swift.String, selectedMethodId: Swift.String, methodType: MoneyHashShared.MethodType, metaData: MoneyHashShared.MethodMetaData?, useWalletBalance: MoneyHashShared.KotlinBoolean?, installmentPlanData: MoneyHashShared.InstallmentPlanData?) async throws -> MoneyHashShared.KotlinPair<MoneyHashShared.IntentMethods, MoneyHashShared.PaymentInformation>
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func proceedWithPayoutMethod(intentId: Swift.String, selectedMethodId: Swift.String, methodType: MoneyHashShared.MethodType, metaData: MoneyHashShared.MethodMetaData?) async throws -> MoneyHashShared.KotlinPair<MoneyHashShared.IntentMethods, MoneyHashShared.PayoutData>
+  #endif
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func resetPaymentSelectedMethod(intentId: Swift.String) async throws -> MoneyHashShared.KotlinPair<MoneyHashShared.IntentMethods, MoneyHashShared.PaymentInformation>
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func resetPayoutSelectedMethod(intentId: Swift.String) async throws -> MoneyHashShared.KotlinPair<MoneyHashShared.IntentMethods, MoneyHashShared.PayoutData>
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func selectInstallmentPlan(intentId: Swift.String, installmentPlanData: MoneyHashShared.InstallmentPlanData) async throws -> MoneyHashShared.PaymentIntentData
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func selectSubscriptionPlan(planGroupId: Swift.String, customerId: Swift.String, planId: Swift.String) async throws -> MoneyHashShared.PaymentIntentData
+  #if compiler(>=5.3) && $NonescapableTypes
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func submitCardCVV(intentId: Swift.String, cvv: Swift.String, installmentPlanData: MoneyHashShared.InstallmentPlanData?) async throws -> MoneyHashShared.PaymentIntentData
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func submitForm(paymentIntentId: Swift.String, method: Swift.String, billingFields: [Swift.String : Swift.String]?, shippingFields: [Swift.String : Swift.String]?, vaultData: MoneyHashShared.VaultData?, saveCard: MoneyHashShared.KotlinBoolean?, installmentPlanData: MoneyHashShared.InstallmentPlanData?) async throws -> MoneyHashShared.PaymentIntentData
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func submitPaymentReceipt(paymentIntentId: Swift.String, receipt: Swift.String, receiptBillingData: [Swift.String : Swift.String]?) async throws -> MoneyHashShared.PaymentInformation
+  #endif
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func tokenizeReceipt(receipt: Swift.String, methodId: Swift.String, cardTokenIntentId: Swift.String) async throws -> Swift.String
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func updateDiscount(intentId: Swift.String, discount: MoneyHashShared.DiscountItem) async throws -> MoneyHashShared.DiscountResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func updateFees(intentId: Swift.String, fees: [MoneyHashShared.FeeItem]) async throws -> MoneyHashShared.FeesResponse
+}
+extension MoneyHashShared.CardCollector {
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func binLookup(cardData: MoneyHashShared.VaultData) async throws -> MoneyHashShared.LookupResponse
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func binLookup() async throws -> MoneyHashShared.LookupResponse
+  #if compiler(>=5.3) && $NonescapableTypes
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func collect(token: Swift.String?) async throws -> MoneyHashShared.VaultData
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func createCardToken(cardIntentId: Swift.String, cardData: MoneyHashShared.VaultData) async throws -> MoneyHashShared.IntentStateDetails?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func pay(intentId: Swift.String, cardData: MoneyHashShared.VaultData, saveCard: Swift.Bool, billingFields: [Swift.String : Swift.String]?, shippingFields: [Swift.String : Swift.String]?, installmentPlanData: MoneyHashShared.InstallmentPlanData?) async throws -> MoneyHashShared.PaymentIntentData
+  #endif
+}
+extension MoneyHashShared.SandboxUseCase {
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func getDemoIntents(accessToken: Swift.String) async throws -> MoneyHashShared.DemoIntentResponse
+}
+extension MoneyHashShared.KotlinSuspendFunction1 {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func invoke(p1: Any?) async throws -> Any?
+  #endif
+}
+extension MoneyHashShared.Ktor_httpOutgoingContent.ProtocolUpgrade {
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func upgrade(input: any MoneyHashShared.Ktor_ioByteReadChannel, output: any MoneyHashShared.Ktor_ioByteWriteChannel, engineContext: any MoneyHashShared.KotlinCoroutineContext, userContext: any MoneyHashShared.KotlinCoroutineContext) async throws -> any MoneyHashShared.Kotlinx_coroutines_coreJob
+}
+extension MoneyHashShared.Ktor_ioByteWriteChannel {
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func flush() async throws
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func flushAndClose() async throws
+}
+extension MoneyHashShared.Ktor_httpOutgoingContent.WriteChannelContent {
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func writeTo(channel: any MoneyHashShared.Ktor_ioByteWriteChannel) async throws
+}
+extension MoneyHashShared.KotlinThrowable {
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func handleNetworkException() async throws
+}
+extension MoneyHashShared.Ktor_client_coreHttpCallValidatorConfig {
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func handleResponseValidation(response: MoneyHashShared.Ktor_client_coreHttpResponse) async throws
+}
+public func SkieKotlinFlow<T>(_ flow: MoneyHashShared.SkieSwiftFlow<T>) -> MoneyHashShared.SkieKotlinFlow<T> where T : AnyObject
+public func SkieKotlinFlow<T>(_ flow: MoneyHashShared.SkieSwiftSharedFlow<T>) -> MoneyHashShared.SkieKotlinFlow<T> where T : AnyObject
+public func SkieKotlinFlow<T>(_ flow: MoneyHashShared.SkieSwiftMutableSharedFlow<T>) -> MoneyHashShared.SkieKotlinFlow<T> where T : AnyObject
+public func SkieKotlinFlow<T>(_ flow: MoneyHashShared.SkieSwiftStateFlow<T>) -> MoneyHashShared.SkieKotlinFlow<T> where T : AnyObject
+public func SkieKotlinFlow<T>(_ flow: MoneyHashShared.SkieSwiftMutableStateFlow<T>) -> MoneyHashShared.SkieKotlinFlow<T> where T : AnyObject
+public func SkieKotlinFlow<T>(_ flow: MoneyHashShared.SkieSwiftFlow<T>) -> MoneyHashShared.SkieKotlinFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+public func SkieKotlinFlow<T>(_ flow: MoneyHashShared.SkieSwiftSharedFlow<T>) -> MoneyHashShared.SkieKotlinFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+public func SkieKotlinFlow<T>(_ flow: MoneyHashShared.SkieSwiftMutableSharedFlow<T>) -> MoneyHashShared.SkieKotlinFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+public func SkieKotlinFlow<T>(_ flow: MoneyHashShared.SkieSwiftStateFlow<T>) -> MoneyHashShared.SkieKotlinFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+public func SkieKotlinFlow<T>(_ flow: MoneyHashShared.SkieSwiftMutableStateFlow<T>) -> MoneyHashShared.SkieKotlinFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+extension MoneyHashShared.SkieSwiftFlow where T : AnyObject {
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinSharedFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinMutableSharedFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinStateFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinMutableStateFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftSharedFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftMutableSharedFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftStateFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftMutableStateFlow<T>)
+}
+extension MoneyHashShared.SkieSwiftFlow where T : Swift._ObjectiveCBridgeable {
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinSharedFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinMutableSharedFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinMutableStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftSharedFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftMutableSharedFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftMutableStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftSharedFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftMutableSharedFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftStateFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftMutableStateFlow<T>)
+}
+public func SkieKotlinOptionalFlow<T>(_ flow: MoneyHashShared.SkieSwiftFlow<T>) -> MoneyHashShared.SkieKotlinOptionalFlow<T> where T : AnyObject
+public func SkieKotlinOptionalFlow<T>(_ flow: MoneyHashShared.SkieSwiftOptionalFlow<T>) -> MoneyHashShared.SkieKotlinOptionalFlow<T> where T : AnyObject
+public func SkieKotlinOptionalFlow<T>(_ flow: MoneyHashShared.SkieSwiftSharedFlow<T>) -> MoneyHashShared.SkieKotlinOptionalFlow<T> where T : AnyObject
+public func SkieKotlinOptionalFlow<T>(_ flow: MoneyHashShared.SkieSwiftOptionalSharedFlow<T>) -> MoneyHashShared.SkieKotlinOptionalFlow<T> where T : AnyObject
+public func SkieKotlinOptionalFlow<T>(_ flow: MoneyHashShared.SkieSwiftMutableSharedFlow<T>) -> MoneyHashShared.SkieKotlinOptionalFlow<T> where T : AnyObject
+public func SkieKotlinOptionalFlow<T>(_ flow: MoneyHashShared.SkieSwiftOptionalMutableSharedFlow<T>) -> MoneyHashShared.SkieKotlinOptionalFlow<T> where T : AnyObject
+public func SkieKotlinOptionalFlow<T>(_ flow: MoneyHashShared.SkieSwiftStateFlow<T>) -> MoneyHashShared.SkieKotlinOptionalFlow<T> where T : AnyObject
+public func SkieKotlinOptionalFlow<T>(_ flow: MoneyHashShared.SkieSwiftOptionalStateFlow<T>) -> MoneyHashShared.SkieKotlinOptionalFlow<T> where T : AnyObject
+public func SkieKotlinOptionalFlow<T>(_ flow: MoneyHashShared.SkieSwiftMutableStateFlow<T>) -> MoneyHashShared.SkieKotlinOptionalFlow<T> where T : AnyObject
+public func SkieKotlinOptionalFlow<T>(_ flow: MoneyHashShared.SkieSwiftOptionalMutableStateFlow<T>) -> MoneyHashShared.SkieKotlinOptionalFlow<T> where T : AnyObject
+public func SkieKotlinOptionalFlow<T>(_ flow: MoneyHashShared.SkieSwiftFlow<T>) -> MoneyHashShared.SkieKotlinOptionalFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+public func SkieKotlinOptionalFlow<T>(_ flow: MoneyHashShared.SkieSwiftOptionalFlow<T>) -> MoneyHashShared.SkieKotlinOptionalFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+public func SkieKotlinOptionalFlow<T>(_ flow: MoneyHashShared.SkieSwiftSharedFlow<T>) -> MoneyHashShared.SkieKotlinOptionalFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+public func SkieKotlinOptionalFlow<T>(_ flow: MoneyHashShared.SkieSwiftOptionalSharedFlow<T>) -> MoneyHashShared.SkieKotlinOptionalFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+public func SkieKotlinOptionalFlow<T>(_ flow: MoneyHashShared.SkieSwiftMutableSharedFlow<T>) -> MoneyHashShared.SkieKotlinOptionalFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+public func SkieKotlinOptionalFlow<T>(_ flow: MoneyHashShared.SkieSwiftOptionalMutableSharedFlow<T>) -> MoneyHashShared.SkieKotlinOptionalFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+public func SkieKotlinOptionalFlow<T>(_ flow: MoneyHashShared.SkieSwiftStateFlow<T>) -> MoneyHashShared.SkieKotlinOptionalFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+public func SkieKotlinOptionalFlow<T>(_ flow: MoneyHashShared.SkieSwiftOptionalStateFlow<T>) -> MoneyHashShared.SkieKotlinOptionalFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+public func SkieKotlinOptionalFlow<T>(_ flow: MoneyHashShared.SkieSwiftMutableStateFlow<T>) -> MoneyHashShared.SkieKotlinOptionalFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+public func SkieKotlinOptionalFlow<T>(_ flow: MoneyHashShared.SkieSwiftOptionalMutableStateFlow<T>) -> MoneyHashShared.SkieKotlinOptionalFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+extension MoneyHashShared.SkieSwiftOptionalFlow where T : AnyObject {
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinOptionalFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinSharedFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinOptionalSharedFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinMutableSharedFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinOptionalMutableSharedFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinStateFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinOptionalStateFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinMutableStateFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinOptionalMutableStateFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftOptionalFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftSharedFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftOptionalSharedFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftMutableSharedFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftOptionalMutableSharedFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftStateFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftOptionalStateFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftMutableStateFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftOptionalMutableStateFlow<T>)
+}
+extension MoneyHashShared.SkieSwiftOptionalFlow where T : Swift._ObjectiveCBridgeable {
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinOptionalFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinSharedFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinOptionalSharedFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinMutableSharedFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinOptionalMutableSharedFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinOptionalStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinMutableStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinOptionalMutableStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftOptionalFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftSharedFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftOptionalSharedFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftMutableSharedFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftOptionalMutableSharedFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftOptionalStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftMutableStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftOptionalMutableStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftOptionalFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftSharedFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftOptionalSharedFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftMutableSharedFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftOptionalMutableSharedFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftStateFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftOptionalStateFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftMutableStateFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftOptionalMutableStateFlow<T>)
+}
+public func SkieKotlinSharedFlow<T>(_ flow: MoneyHashShared.SkieSwiftSharedFlow<T>) -> MoneyHashShared.SkieKotlinSharedFlow<T> where T : AnyObject
+public func SkieKotlinSharedFlow<T>(_ flow: MoneyHashShared.SkieSwiftMutableSharedFlow<T>) -> MoneyHashShared.SkieKotlinSharedFlow<T> where T : AnyObject
+public func SkieKotlinSharedFlow<T>(_ flow: MoneyHashShared.SkieSwiftStateFlow<T>) -> MoneyHashShared.SkieKotlinSharedFlow<T> where T : AnyObject
+public func SkieKotlinSharedFlow<T>(_ flow: MoneyHashShared.SkieSwiftMutableStateFlow<T>) -> MoneyHashShared.SkieKotlinSharedFlow<T> where T : AnyObject
+public func SkieKotlinSharedFlow<T>(_ flow: MoneyHashShared.SkieSwiftSharedFlow<T>) -> MoneyHashShared.SkieKotlinSharedFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+public func SkieKotlinSharedFlow<T>(_ flow: MoneyHashShared.SkieSwiftMutableSharedFlow<T>) -> MoneyHashShared.SkieKotlinSharedFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+public func SkieKotlinSharedFlow<T>(_ flow: MoneyHashShared.SkieSwiftStateFlow<T>) -> MoneyHashShared.SkieKotlinSharedFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+public func SkieKotlinSharedFlow<T>(_ flow: MoneyHashShared.SkieSwiftMutableStateFlow<T>) -> MoneyHashShared.SkieKotlinSharedFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+extension MoneyHashShared.SkieSwiftSharedFlow where T : AnyObject {
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinSharedFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinMutableSharedFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinStateFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinMutableStateFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftSharedFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftMutableSharedFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftStateFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftMutableStateFlow<T>)
+}
+extension MoneyHashShared.SkieSwiftSharedFlow where T : Swift._ObjectiveCBridgeable {
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinSharedFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinMutableSharedFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinMutableStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftSharedFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftMutableSharedFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftMutableStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftSharedFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftMutableSharedFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftStateFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftMutableStateFlow<T>)
+}
+public func SkieKotlinOptionalSharedFlow<T>(_ flow: MoneyHashShared.SkieSwiftSharedFlow<T>) -> MoneyHashShared.SkieKotlinOptionalSharedFlow<T> where T : AnyObject
+public func SkieKotlinOptionalSharedFlow<T>(_ flow: MoneyHashShared.SkieSwiftOptionalSharedFlow<T>) -> MoneyHashShared.SkieKotlinOptionalSharedFlow<T> where T : AnyObject
+public func SkieKotlinOptionalSharedFlow<T>(_ flow: MoneyHashShared.SkieSwiftMutableSharedFlow<T>) -> MoneyHashShared.SkieKotlinOptionalSharedFlow<T> where T : AnyObject
+public func SkieKotlinOptionalSharedFlow<T>(_ flow: MoneyHashShared.SkieSwiftOptionalMutableSharedFlow<T>) -> MoneyHashShared.SkieKotlinOptionalSharedFlow<T> where T : AnyObject
+public func SkieKotlinOptionalSharedFlow<T>(_ flow: MoneyHashShared.SkieSwiftStateFlow<T>) -> MoneyHashShared.SkieKotlinOptionalSharedFlow<T> where T : AnyObject
+public func SkieKotlinOptionalSharedFlow<T>(_ flow: MoneyHashShared.SkieSwiftOptionalStateFlow<T>) -> MoneyHashShared.SkieKotlinOptionalSharedFlow<T> where T : AnyObject
+public func SkieKotlinOptionalSharedFlow<T>(_ flow: MoneyHashShared.SkieSwiftMutableStateFlow<T>) -> MoneyHashShared.SkieKotlinOptionalSharedFlow<T> where T : AnyObject
+public func SkieKotlinOptionalSharedFlow<T>(_ flow: MoneyHashShared.SkieSwiftOptionalMutableStateFlow<T>) -> MoneyHashShared.SkieKotlinOptionalSharedFlow<T> where T : AnyObject
+public func SkieKotlinOptionalSharedFlow<T>(_ flow: MoneyHashShared.SkieSwiftSharedFlow<T>) -> MoneyHashShared.SkieKotlinOptionalSharedFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+public func SkieKotlinOptionalSharedFlow<T>(_ flow: MoneyHashShared.SkieSwiftOptionalSharedFlow<T>) -> MoneyHashShared.SkieKotlinOptionalSharedFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+public func SkieKotlinOptionalSharedFlow<T>(_ flow: MoneyHashShared.SkieSwiftMutableSharedFlow<T>) -> MoneyHashShared.SkieKotlinOptionalSharedFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+public func SkieKotlinOptionalSharedFlow<T>(_ flow: MoneyHashShared.SkieSwiftOptionalMutableSharedFlow<T>) -> MoneyHashShared.SkieKotlinOptionalSharedFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+public func SkieKotlinOptionalSharedFlow<T>(_ flow: MoneyHashShared.SkieSwiftStateFlow<T>) -> MoneyHashShared.SkieKotlinOptionalSharedFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+public func SkieKotlinOptionalSharedFlow<T>(_ flow: MoneyHashShared.SkieSwiftOptionalStateFlow<T>) -> MoneyHashShared.SkieKotlinOptionalSharedFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+public func SkieKotlinOptionalSharedFlow<T>(_ flow: MoneyHashShared.SkieSwiftMutableStateFlow<T>) -> MoneyHashShared.SkieKotlinOptionalSharedFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+public func SkieKotlinOptionalSharedFlow<T>(_ flow: MoneyHashShared.SkieSwiftOptionalMutableStateFlow<T>) -> MoneyHashShared.SkieKotlinOptionalSharedFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+extension MoneyHashShared.SkieSwiftOptionalSharedFlow where T : AnyObject {
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinSharedFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinOptionalSharedFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinMutableSharedFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinOptionalMutableSharedFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinStateFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinOptionalStateFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinMutableStateFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinOptionalMutableStateFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftSharedFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftOptionalSharedFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftMutableSharedFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftOptionalMutableSharedFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftStateFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftOptionalStateFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftMutableStateFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftOptionalMutableStateFlow<T>)
+}
+extension MoneyHashShared.SkieSwiftOptionalSharedFlow where T : Swift._ObjectiveCBridgeable {
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinSharedFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinOptionalSharedFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinMutableSharedFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinOptionalMutableSharedFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinOptionalStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinMutableStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinOptionalMutableStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftSharedFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftOptionalSharedFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftMutableSharedFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftOptionalMutableSharedFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftOptionalStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftMutableStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftOptionalMutableStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftSharedFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftOptionalSharedFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftMutableSharedFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftOptionalMutableSharedFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftStateFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftOptionalStateFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftMutableStateFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftOptionalMutableStateFlow<T>)
+}
+public func SkieKotlinMutableSharedFlow<T>(_ flow: MoneyHashShared.SkieSwiftMutableSharedFlow<T>) -> MoneyHashShared.SkieKotlinMutableSharedFlow<T> where T : AnyObject
+public func SkieKotlinMutableSharedFlow<T>(_ flow: MoneyHashShared.SkieSwiftMutableSharedFlow<T>) -> MoneyHashShared.SkieKotlinMutableSharedFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+extension MoneyHashShared.SkieSwiftMutableSharedFlow where T : AnyObject {
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinMutableSharedFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftMutableSharedFlow<T>)
+}
+extension MoneyHashShared.SkieSwiftMutableSharedFlow where T : Swift._ObjectiveCBridgeable {
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinMutableSharedFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftMutableSharedFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftMutableSharedFlow<T>)
+}
+public func SkieKotlinOptionalMutableSharedFlow<T>(_ flow: MoneyHashShared.SkieSwiftMutableSharedFlow<T>) -> MoneyHashShared.SkieKotlinOptionalMutableSharedFlow<T> where T : AnyObject
+public func SkieKotlinOptionalMutableSharedFlow<T>(_ flow: MoneyHashShared.SkieSwiftOptionalMutableSharedFlow<T>) -> MoneyHashShared.SkieKotlinOptionalMutableSharedFlow<T> where T : AnyObject
+public func SkieKotlinOptionalMutableSharedFlow<T>(_ flow: MoneyHashShared.SkieSwiftMutableSharedFlow<T>) -> MoneyHashShared.SkieKotlinOptionalMutableSharedFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+public func SkieKotlinOptionalMutableSharedFlow<T>(_ flow: MoneyHashShared.SkieSwiftOptionalMutableSharedFlow<T>) -> MoneyHashShared.SkieKotlinOptionalMutableSharedFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+extension MoneyHashShared.SkieSwiftOptionalMutableSharedFlow where T : AnyObject {
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinMutableSharedFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinOptionalMutableSharedFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftMutableSharedFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftOptionalMutableSharedFlow<T>)
+}
+extension MoneyHashShared.SkieSwiftOptionalMutableSharedFlow where T : Swift._ObjectiveCBridgeable {
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinMutableSharedFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinOptionalMutableSharedFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftMutableSharedFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftOptionalMutableSharedFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftMutableSharedFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftOptionalMutableSharedFlow<T>)
+}
+public func SkieKotlinStateFlow<T>(_ flow: MoneyHashShared.SkieSwiftStateFlow<T>) -> MoneyHashShared.SkieKotlinStateFlow<T> where T : AnyObject
+public func SkieKotlinStateFlow<T>(_ flow: MoneyHashShared.SkieSwiftMutableStateFlow<T>) -> MoneyHashShared.SkieKotlinStateFlow<T> where T : AnyObject
+public func SkieKotlinStateFlow<T>(_ flow: MoneyHashShared.SkieSwiftStateFlow<T>) -> MoneyHashShared.SkieKotlinStateFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+public func SkieKotlinStateFlow<T>(_ flow: MoneyHashShared.SkieSwiftMutableStateFlow<T>) -> MoneyHashShared.SkieKotlinStateFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+extension MoneyHashShared.SkieSwiftStateFlow where T : AnyObject {
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinStateFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinMutableStateFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftStateFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftMutableStateFlow<T>)
+}
+extension MoneyHashShared.SkieSwiftStateFlow where T : Swift._ObjectiveCBridgeable {
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinMutableStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftMutableStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftStateFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftMutableStateFlow<T>)
+}
+public func SkieKotlinOptionalStateFlow<T>(_ flow: MoneyHashShared.SkieSwiftStateFlow<T>) -> MoneyHashShared.SkieKotlinOptionalStateFlow<T> where T : AnyObject
+public func SkieKotlinOptionalStateFlow<T>(_ flow: MoneyHashShared.SkieSwiftOptionalStateFlow<T>) -> MoneyHashShared.SkieKotlinOptionalStateFlow<T> where T : AnyObject
+public func SkieKotlinOptionalStateFlow<T>(_ flow: MoneyHashShared.SkieSwiftMutableStateFlow<T>) -> MoneyHashShared.SkieKotlinOptionalStateFlow<T> where T : AnyObject
+public func SkieKotlinOptionalStateFlow<T>(_ flow: MoneyHashShared.SkieSwiftOptionalMutableStateFlow<T>) -> MoneyHashShared.SkieKotlinOptionalStateFlow<T> where T : AnyObject
+public func SkieKotlinOptionalStateFlow<T>(_ flow: MoneyHashShared.SkieSwiftStateFlow<T>) -> MoneyHashShared.SkieKotlinOptionalStateFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+public func SkieKotlinOptionalStateFlow<T>(_ flow: MoneyHashShared.SkieSwiftOptionalStateFlow<T>) -> MoneyHashShared.SkieKotlinOptionalStateFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+public func SkieKotlinOptionalStateFlow<T>(_ flow: MoneyHashShared.SkieSwiftMutableStateFlow<T>) -> MoneyHashShared.SkieKotlinOptionalStateFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+public func SkieKotlinOptionalStateFlow<T>(_ flow: MoneyHashShared.SkieSwiftOptionalMutableStateFlow<T>) -> MoneyHashShared.SkieKotlinOptionalStateFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+extension MoneyHashShared.SkieSwiftOptionalStateFlow where T : AnyObject {
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinStateFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinOptionalStateFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinMutableStateFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinOptionalMutableStateFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftStateFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftOptionalStateFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftMutableStateFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftOptionalMutableStateFlow<T>)
+}
+extension MoneyHashShared.SkieSwiftOptionalStateFlow where T : Swift._ObjectiveCBridgeable {
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinOptionalStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinMutableStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinOptionalMutableStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftOptionalStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftMutableStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftOptionalMutableStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftStateFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftOptionalStateFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftMutableStateFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftOptionalMutableStateFlow<T>)
+}
+public func SkieKotlinMutableStateFlow<T>(_ flow: MoneyHashShared.SkieSwiftMutableStateFlow<T>) -> MoneyHashShared.SkieKotlinMutableStateFlow<T> where T : AnyObject
+public func SkieKotlinMutableStateFlow<T>(_ flow: MoneyHashShared.SkieSwiftMutableStateFlow<T>) -> MoneyHashShared.SkieKotlinMutableStateFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+extension MoneyHashShared.SkieSwiftMutableStateFlow where T : AnyObject {
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinMutableStateFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftMutableStateFlow<T>)
+}
+extension MoneyHashShared.SkieSwiftMutableStateFlow where T : Swift._ObjectiveCBridgeable {
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinMutableStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftMutableStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftMutableStateFlow<T>)
+}
+public func SkieKotlinOptionalMutableStateFlow<T>(_ flow: MoneyHashShared.SkieSwiftMutableStateFlow<T>) -> MoneyHashShared.SkieKotlinOptionalMutableStateFlow<T> where T : AnyObject
+public func SkieKotlinOptionalMutableStateFlow<T>(_ flow: MoneyHashShared.SkieSwiftOptionalMutableStateFlow<T>) -> MoneyHashShared.SkieKotlinOptionalMutableStateFlow<T> where T : AnyObject
+public func SkieKotlinOptionalMutableStateFlow<T>(_ flow: MoneyHashShared.SkieSwiftMutableStateFlow<T>) -> MoneyHashShared.SkieKotlinOptionalMutableStateFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+public func SkieKotlinOptionalMutableStateFlow<T>(_ flow: MoneyHashShared.SkieSwiftOptionalMutableStateFlow<T>) -> MoneyHashShared.SkieKotlinOptionalMutableStateFlow<T._ObjectiveCType> where T : Swift._ObjectiveCBridgeable
+extension MoneyHashShared.SkieSwiftOptionalMutableStateFlow where T : AnyObject {
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinMutableStateFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinOptionalMutableStateFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftMutableStateFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftOptionalMutableStateFlow<T>)
+}
+extension MoneyHashShared.SkieSwiftOptionalMutableStateFlow where T : Swift._ObjectiveCBridgeable {
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinMutableStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieKotlinOptionalMutableStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftMutableStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftOptionalMutableStateFlow<T._ObjectiveCType>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftMutableStateFlow<T>)
+  convenience public init(_ flow: MoneyHashShared.SkieSwiftOptionalMutableStateFlow<T>)
+}
+@frozen public enum KotlinKVariance : Swift.Hashable, Swift.CaseIterable, Swift._ObjectiveCBridgeable {
+  case invariant
+  case `in`
+  case out
+  public var name: Swift.String {
+    get
+  }
+  public var ordinal: Swift.Int32 {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _forceBridgeFromObjectiveC(_ source: MoneyHashShared.__KotlinKVariance, result: inout MoneyHashShared.KotlinKVariance?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _conditionallyBridgeFromObjectiveC(_ source: MoneyHashShared.__KotlinKVariance, result: inout MoneyHashShared.KotlinKVariance?) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _unconditionallyBridgeFromObjectiveC(_ source: MoneyHashShared.__KotlinKVariance?) -> MoneyHashShared.KotlinKVariance
+  #endif
+  public func _bridgeToObjectiveC() -> MoneyHashShared.__KotlinKVariance
+  public typealias _ObjectiveCType = MoneyHashShared.__KotlinKVariance
+  public static func == (a: MoneyHashShared.KotlinKVariance, b: MoneyHashShared.KotlinKVariance) -> Swift.Bool
+  public typealias AllCases = [MoneyHashShared.KotlinKVariance]
+  nonisolated public static var allCases: [MoneyHashShared.KotlinKVariance] {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension MoneyHashShared.KotlinKVariance {
+  public func toKotlinEnum() -> MoneyHashShared.__KotlinKVariance
+}
+extension MoneyHashShared.__KotlinKVariance {
+  public func toSwiftEnum() -> MoneyHashShared.KotlinKVariance
+}
+@frozen public enum BankAccountStatus : Swift.Hashable, Swift.CaseIterable, Swift._ObjectiveCBridgeable {
+  case pending
+  case active
+  case inactive
+  public var name: Swift.String {
+    get
+  }
+  public var ordinal: Swift.Int32 {
+    get
+  }
+  public var status: Swift.String {
+    get
+  }
+  public static var companion: MoneyHashShared.__BankAccountStatus.Companion {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _forceBridgeFromObjectiveC(_ source: MoneyHashShared.__BankAccountStatus, result: inout MoneyHashShared.BankAccountStatus?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _conditionallyBridgeFromObjectiveC(_ source: MoneyHashShared.__BankAccountStatus, result: inout MoneyHashShared.BankAccountStatus?) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _unconditionallyBridgeFromObjectiveC(_ source: MoneyHashShared.__BankAccountStatus?) -> MoneyHashShared.BankAccountStatus
+  #endif
+  public func _bridgeToObjectiveC() -> MoneyHashShared.__BankAccountStatus
+  public typealias _ObjectiveCType = MoneyHashShared.__BankAccountStatus
+  public typealias Companion = MoneyHashShared.__BankAccountStatus.Companion
+  public static func == (a: MoneyHashShared.BankAccountStatus, b: MoneyHashShared.BankAccountStatus) -> Swift.Bool
+  public typealias AllCases = [MoneyHashShared.BankAccountStatus]
+  nonisolated public static var allCases: [MoneyHashShared.BankAccountStatus] {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension MoneyHashShared.BankAccountStatus {
+  public func toKotlinEnum() -> MoneyHashShared.__BankAccountStatus
+}
+extension MoneyHashShared.__BankAccountStatus {
+  public func toSwiftEnum() -> MoneyHashShared.BankAccountStatus
+}
+@frozen public enum SubscriptionStatus : Swift.Hashable, Swift.CaseIterable, Swift._ObjectiveCBridgeable {
+  case theNew
+  case trial
+  case incomplete
+  case active
+  case pastDue
+  case pendingCancellation
+  case cancelled
+  case ended
+  case terminated
+  case paused
+  public var name: Swift.String {
+    get
+  }
+  public var ordinal: Swift.Int32 {
+    get
+  }
+  public var status: Swift.String {
+    get
+  }
+  public static var companion: MoneyHashShared.__SubscriptionStatus.Companion {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _forceBridgeFromObjectiveC(_ source: MoneyHashShared.__SubscriptionStatus, result: inout MoneyHashShared.SubscriptionStatus?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _conditionallyBridgeFromObjectiveC(_ source: MoneyHashShared.__SubscriptionStatus, result: inout MoneyHashShared.SubscriptionStatus?) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _unconditionallyBridgeFromObjectiveC(_ source: MoneyHashShared.__SubscriptionStatus?) -> MoneyHashShared.SubscriptionStatus
+  #endif
+  public func _bridgeToObjectiveC() -> MoneyHashShared.__SubscriptionStatus
+  public typealias _ObjectiveCType = MoneyHashShared.__SubscriptionStatus
+  public typealias Companion = MoneyHashShared.__SubscriptionStatus.Companion
+  public static func == (a: MoneyHashShared.SubscriptionStatus, b: MoneyHashShared.SubscriptionStatus) -> Swift.Bool
+  public typealias AllCases = [MoneyHashShared.SubscriptionStatus]
+  nonisolated public static var allCases: [MoneyHashShared.SubscriptionStatus] {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension MoneyHashShared.SubscriptionStatus {
+  public func toKotlinEnum() -> MoneyHashShared.__SubscriptionStatus
+}
+extension MoneyHashShared.__SubscriptionStatus {
+  public func toSwiftEnum() -> MoneyHashShared.SubscriptionStatus
+}
+@frozen public enum LastUsedMethodType : Swift.Hashable, Swift.CaseIterable, Swift._ObjectiveCBridgeable {
+  case customerBalance
+  case saveCard
+  case paymentMethod
+  public var name: Swift.String {
+    get
+  }
+  public var ordinal: Swift.Int32 {
+    get
+  }
+  public var type: Swift.String {
+    get
+  }
+  public static var companion: MoneyHashShared.__LastUsedMethodType.Companion {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _forceBridgeFromObjectiveC(_ source: MoneyHashShared.__LastUsedMethodType, result: inout MoneyHashShared.LastUsedMethodType?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _conditionallyBridgeFromObjectiveC(_ source: MoneyHashShared.__LastUsedMethodType, result: inout MoneyHashShared.LastUsedMethodType?) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _unconditionallyBridgeFromObjectiveC(_ source: MoneyHashShared.__LastUsedMethodType?) -> MoneyHashShared.LastUsedMethodType
+  #endif
+  public func _bridgeToObjectiveC() -> MoneyHashShared.__LastUsedMethodType
+  public typealias _ObjectiveCType = MoneyHashShared.__LastUsedMethodType
+  public typealias Companion = MoneyHashShared.__LastUsedMethodType.Companion
+  public static func == (a: MoneyHashShared.LastUsedMethodType, b: MoneyHashShared.LastUsedMethodType) -> Swift.Bool
+  public typealias AllCases = [MoneyHashShared.LastUsedMethodType]
+  nonisolated public static var allCases: [MoneyHashShared.LastUsedMethodType] {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension MoneyHashShared.LastUsedMethodType {
+  public func toKotlinEnum() -> MoneyHashShared.__LastUsedMethodType
+}
+extension MoneyHashShared.__LastUsedMethodType {
+  public func toSwiftEnum() -> MoneyHashShared.LastUsedMethodType
+}
+@frozen public enum MethodType : Swift.Hashable, Swift.CaseIterable, Swift._ObjectiveCBridgeable {
+  case expressMethod
+  case customerBalance
+  case saveCard
+  case paymentMethod
+  case payoutMethod
+  case savedBankAccount
+  public var name: Swift.String {
+    get
+  }
+  public var ordinal: Swift.Int32 {
+    get
+  }
+  public var type: Swift.String {
+    get
+  }
+  public static var companion: MoneyHashShared.__MethodType.Companion {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _forceBridgeFromObjectiveC(_ source: MoneyHashShared.__MethodType, result: inout MoneyHashShared.MethodType?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _conditionallyBridgeFromObjectiveC(_ source: MoneyHashShared.__MethodType, result: inout MoneyHashShared.MethodType?) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _unconditionallyBridgeFromObjectiveC(_ source: MoneyHashShared.__MethodType?) -> MoneyHashShared.MethodType
+  #endif
+  public func _bridgeToObjectiveC() -> MoneyHashShared.__MethodType
+  public typealias _ObjectiveCType = MoneyHashShared.__MethodType
+  public typealias Companion = MoneyHashShared.__MethodType.Companion
+  public static func == (a: MoneyHashShared.MethodType, b: MoneyHashShared.MethodType) -> Swift.Bool
+  public typealias AllCases = [MoneyHashShared.MethodType]
+  nonisolated public static var allCases: [MoneyHashShared.MethodType] {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension MoneyHashShared.MethodType {
+  public func toKotlinEnum() -> MoneyHashShared.__MethodType
+}
+extension MoneyHashShared.__MethodType {
+  public func toSwiftEnum() -> MoneyHashShared.MethodType
+}
+@frozen public enum IntentStatus : Swift.Hashable, Swift.CaseIterable, Swift._ObjectiveCBridgeable {
+  case processed
+  case unprocessed
+  case timeExpired
+  case closed
+  public var name: Swift.String {
+    get
+  }
+  public var ordinal: Swift.Int32 {
+    get
+  }
+  public var status: Swift.String {
+    get
+  }
+  public static var companion: MoneyHashShared.__IntentStatus.Companion {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _forceBridgeFromObjectiveC(_ source: MoneyHashShared.__IntentStatus, result: inout MoneyHashShared.IntentStatus?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _conditionallyBridgeFromObjectiveC(_ source: MoneyHashShared.__IntentStatus, result: inout MoneyHashShared.IntentStatus?) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _unconditionallyBridgeFromObjectiveC(_ source: MoneyHashShared.__IntentStatus?) -> MoneyHashShared.IntentStatus
+  #endif
+  public func _bridgeToObjectiveC() -> MoneyHashShared.__IntentStatus
+  public typealias _ObjectiveCType = MoneyHashShared.__IntentStatus
+  public typealias Companion = MoneyHashShared.__IntentStatus.Companion
+  public static func == (a: MoneyHashShared.IntentStatus, b: MoneyHashShared.IntentStatus) -> Swift.Bool
+  public typealias AllCases = [MoneyHashShared.IntentStatus]
+  nonisolated public static var allCases: [MoneyHashShared.IntentStatus] {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension MoneyHashShared.IntentStatus {
+  public func toKotlinEnum() -> MoneyHashShared.__IntentStatus
+}
+extension MoneyHashShared.__IntentStatus {
+  public func toSwiftEnum() -> MoneyHashShared.IntentStatus
+}
+@frozen public enum DiscountType : Swift.Hashable, Swift.CaseIterable, Swift._ObjectiveCBridgeable {
+  case amount
+  case percentage
+  public var name: Swift.String {
+    get
+  }
+  public var ordinal: Swift.Int32 {
+    get
+  }
+  public var type: Swift.String {
+    get
+  }
+  public static var companion: MoneyHashShared.__DiscountType.Companion {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _forceBridgeFromObjectiveC(_ source: MoneyHashShared.__DiscountType, result: inout MoneyHashShared.DiscountType?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _conditionallyBridgeFromObjectiveC(_ source: MoneyHashShared.__DiscountType, result: inout MoneyHashShared.DiscountType?) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _unconditionallyBridgeFromObjectiveC(_ source: MoneyHashShared.__DiscountType?) -> MoneyHashShared.DiscountType
+  #endif
+  public func _bridgeToObjectiveC() -> MoneyHashShared.__DiscountType
+  public typealias _ObjectiveCType = MoneyHashShared.__DiscountType
+  public typealias Companion = MoneyHashShared.__DiscountType.Companion
+  public static func == (a: MoneyHashShared.DiscountType, b: MoneyHashShared.DiscountType) -> Swift.Bool
+  public typealias AllCases = [MoneyHashShared.DiscountType]
+  nonisolated public static var allCases: [MoneyHashShared.DiscountType] {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension MoneyHashShared.DiscountType {
+  public func toKotlinEnum() -> MoneyHashShared.__DiscountType
+}
+extension MoneyHashShared.__DiscountType {
+  public func toSwiftEnum() -> MoneyHashShared.DiscountType
+}
+@frozen public enum Language : Swift.Hashable, Swift.CaseIterable, Swift._ObjectiveCBridgeable {
+  case arabic
+  case english
+  case french
+  public var isoCode: Swift.String {
+    get
+  }
+  public var name: Swift.String {
+    get
+  }
+  public var ordinal: Swift.Int32 {
+    get
+  }
+  public static var companion: MoneyHashShared.__Language.Companion {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _forceBridgeFromObjectiveC(_ source: MoneyHashShared.__Language, result: inout MoneyHashShared.Language?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _conditionallyBridgeFromObjectiveC(_ source: MoneyHashShared.__Language, result: inout MoneyHashShared.Language?) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _unconditionallyBridgeFromObjectiveC(_ source: MoneyHashShared.__Language?) -> MoneyHashShared.Language
+  #endif
+  public func _bridgeToObjectiveC() -> MoneyHashShared.__Language
+  public typealias _ObjectiveCType = MoneyHashShared.__Language
+  public typealias Companion = MoneyHashShared.__Language.Companion
+  public static func == (a: MoneyHashShared.Language, b: MoneyHashShared.Language) -> Swift.Bool
+  public typealias AllCases = [MoneyHashShared.Language]
+  nonisolated public static var allCases: [MoneyHashShared.Language] {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension MoneyHashShared.Language {
+  public func toKotlinEnum() -> MoneyHashShared.__Language
+}
+extension MoneyHashShared.__Language {
+  public func toSwiftEnum() -> MoneyHashShared.Language
+}
+@frozen public enum IntentState : Swift.Hashable, Swift.CaseIterable, Swift._ObjectiveCBridgeable {
+  case methodSelection
+  case intentForm
+  case intentProcessed
+  case transactionWaitingUserAction
+  case transactionFailed
+  case expired
+  case closed
+  case formFields
+  case urlToRender
+  case savedCardCvv
+  case success
+  case failed
+  case instalmentPlans
+  case nativePay
+  case processing
+  public var name: Swift.String {
+    get
+  }
+  public var ordinal: Swift.Int32 {
+    get
+  }
+  public var state: Swift.String {
+    get
+  }
+  public static var companion: MoneyHashShared.__IntentState.Companion {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _forceBridgeFromObjectiveC(_ source: MoneyHashShared.__IntentState, result: inout MoneyHashShared.IntentState?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _conditionallyBridgeFromObjectiveC(_ source: MoneyHashShared.__IntentState, result: inout MoneyHashShared.IntentState?) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _unconditionallyBridgeFromObjectiveC(_ source: MoneyHashShared.__IntentState?) -> MoneyHashShared.IntentState
+  #endif
+  public func _bridgeToObjectiveC() -> MoneyHashShared.__IntentState
+  public typealias _ObjectiveCType = MoneyHashShared.__IntentState
+  public typealias Companion = MoneyHashShared.__IntentState.Companion
+  public static func == (a: MoneyHashShared.IntentState, b: MoneyHashShared.IntentState) -> Swift.Bool
+  public typealias AllCases = [MoneyHashShared.IntentState]
+  nonisolated public static var allCases: [MoneyHashShared.IntentState] {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension MoneyHashShared.IntentState {
+  public func toKotlinEnum() -> MoneyHashShared.__IntentState
+}
+extension MoneyHashShared.__IntentState {
+  public func toSwiftEnum() -> MoneyHashShared.IntentState
+}
+@frozen public enum IntentOperation : Swift.Hashable, Swift.CaseIterable, Swift._ObjectiveCBridgeable {
+  case purchase
+  case authorize
+  public var name: Swift.String {
+    get
+  }
+  public var operation: Swift.String {
+    get
+  }
+  public var ordinal: Swift.Int32 {
+    get
+  }
+  public static var companion: MoneyHashShared.__IntentOperation.Companion {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _forceBridgeFromObjectiveC(_ source: MoneyHashShared.__IntentOperation, result: inout MoneyHashShared.IntentOperation?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _conditionallyBridgeFromObjectiveC(_ source: MoneyHashShared.__IntentOperation, result: inout MoneyHashShared.IntentOperation?) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _unconditionallyBridgeFromObjectiveC(_ source: MoneyHashShared.__IntentOperation?) -> MoneyHashShared.IntentOperation
+  #endif
+  public func _bridgeToObjectiveC() -> MoneyHashShared.__IntentOperation
+  public typealias _ObjectiveCType = MoneyHashShared.__IntentOperation
+  public typealias Companion = MoneyHashShared.__IntentOperation.Companion
+  public static func == (a: MoneyHashShared.IntentOperation, b: MoneyHashShared.IntentOperation) -> Swift.Bool
+  public typealias AllCases = [MoneyHashShared.IntentOperation]
+  nonisolated public static var allCases: [MoneyHashShared.IntentOperation] {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension MoneyHashShared.IntentOperation {
+  public func toKotlinEnum() -> MoneyHashShared.__IntentOperation
+}
+extension MoneyHashShared.__IntentOperation {
+  public func toSwiftEnum() -> MoneyHashShared.IntentOperation
+}
+@frozen public enum Environment : Swift.Hashable, Swift.CaseIterable, Swift._ObjectiveCBridgeable {
+  case staging
+  case production
+  public var baseUrl: Swift.String {
+    get
+  }
+  public var debuggable: Swift.Bool {
+    get
+  }
+  public var embedUrl: Swift.String {
+    get
+  }
+  public var name: Swift.String {
+    get
+  }
+  public var ordinal: Swift.Int32 {
+    get
+  }
+  public var vaultUrl: Swift.String {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _forceBridgeFromObjectiveC(_ source: MoneyHashShared.__Environment, result: inout MoneyHashShared.Environment?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _conditionallyBridgeFromObjectiveC(_ source: MoneyHashShared.__Environment, result: inout MoneyHashShared.Environment?) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _unconditionallyBridgeFromObjectiveC(_ source: MoneyHashShared.__Environment?) -> MoneyHashShared.Environment
+  #endif
+  public func _bridgeToObjectiveC() -> MoneyHashShared.__Environment
+  public typealias _ObjectiveCType = MoneyHashShared.__Environment
+  public static func == (a: MoneyHashShared.Environment, b: MoneyHashShared.Environment) -> Swift.Bool
+  public typealias AllCases = [MoneyHashShared.Environment]
+  nonisolated public static var allCases: [MoneyHashShared.Environment] {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension MoneyHashShared.Environment {
+  public func toKotlinEnum() -> MoneyHashShared.__Environment
+}
+extension MoneyHashShared.__Environment {
+  public func toSwiftEnum() -> MoneyHashShared.Environment
+}
+@frozen public enum InputFieldType : Swift.Hashable, Swift.CaseIterable, Swift._ObjectiveCBridgeable {
+  case text
+  case email
+  case phoneNumber
+  case date
+  case number
+  case select
+  public var name: Swift.String {
+    get
+  }
+  public var ordinal: Swift.Int32 {
+    get
+  }
+  public var type: Swift.String {
+    get
+  }
+  public static var companion: MoneyHashShared.__InputFieldType.Companion {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _forceBridgeFromObjectiveC(_ source: MoneyHashShared.__InputFieldType, result: inout MoneyHashShared.InputFieldType?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _conditionallyBridgeFromObjectiveC(_ source: MoneyHashShared.__InputFieldType, result: inout MoneyHashShared.InputFieldType?) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _unconditionallyBridgeFromObjectiveC(_ source: MoneyHashShared.__InputFieldType?) -> MoneyHashShared.InputFieldType
+  #endif
+  public func _bridgeToObjectiveC() -> MoneyHashShared.__InputFieldType
+  public typealias _ObjectiveCType = MoneyHashShared.__InputFieldType
+  public typealias Companion = MoneyHashShared.__InputFieldType.Companion
+  public static func == (a: MoneyHashShared.InputFieldType, b: MoneyHashShared.InputFieldType) -> Swift.Bool
+  public typealias AllCases = [MoneyHashShared.InputFieldType]
+  nonisolated public static var allCases: [MoneyHashShared.InputFieldType] {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension MoneyHashShared.InputFieldType {
+  public func toKotlinEnum() -> MoneyHashShared.__InputFieldType
+}
+extension MoneyHashShared.__InputFieldType {
+  public func toSwiftEnum() -> MoneyHashShared.InputFieldType
+}
+@frozen public enum Type_ : Swift.Hashable, Swift.CaseIterable, Swift._ObjectiveCBridgeable {
+  case payment
+  case payout
+  case cards
+  case vault
+  public var name: Swift.String {
+    get
+  }
+  public var ordinal: Swift.Int32 {
+    get
+  }
+  public var resultSuffix: Swift.String {
+    get
+  }
+  public var type: Swift.String {
+    get
+  }
+  public static var companion: MoneyHashShared.__Type_.Companion {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _forceBridgeFromObjectiveC(_ source: MoneyHashShared.__Type_, result: inout MoneyHashShared.Type_?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _conditionallyBridgeFromObjectiveC(_ source: MoneyHashShared.__Type_, result: inout MoneyHashShared.Type_?) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _unconditionallyBridgeFromObjectiveC(_ source: MoneyHashShared.__Type_?) -> MoneyHashShared.Type_
+  #endif
+  public func _bridgeToObjectiveC() -> MoneyHashShared.__Type_
+  public typealias _ObjectiveCType = MoneyHashShared.__Type_
+  public typealias Companion = MoneyHashShared.__Type_.Companion
+  public static func == (a: MoneyHashShared.Type_, b: MoneyHashShared.Type_) -> Swift.Bool
+  public typealias AllCases = [MoneyHashShared.Type_]
+  nonisolated public static var allCases: [MoneyHashShared.Type_] {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension MoneyHashShared.Type_ {
+  public func toKotlinEnum() -> MoneyHashShared.__Type_
+}
+extension MoneyHashShared.__Type_ {
+  public func toSwiftEnum() -> MoneyHashShared.Type_
+}
+@frozen public enum Brand : Swift.Hashable, Swift.CaseIterable, Swift._ObjectiveCBridgeable {
+  case visa
+  case mastercard
+  case mada
+  case amex
+  case unknown
+  public var brandName: Swift.String {
+    get
+  }
+  public var name: Swift.String {
+    get
+  }
+  public var ordinal: Swift.Int32 {
+    get
+  }
+  public static var companion: MoneyHashShared.__Brand.Companion {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _forceBridgeFromObjectiveC(_ source: MoneyHashShared.__Brand, result: inout MoneyHashShared.Brand?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _conditionallyBridgeFromObjectiveC(_ source: MoneyHashShared.__Brand, result: inout MoneyHashShared.Brand?) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _unconditionallyBridgeFromObjectiveC(_ source: MoneyHashShared.__Brand?) -> MoneyHashShared.Brand
+  #endif
+  public func _bridgeToObjectiveC() -> MoneyHashShared.__Brand
+  public typealias _ObjectiveCType = MoneyHashShared.__Brand
+  public typealias Companion = MoneyHashShared.__Brand.Companion
+  public static func == (a: MoneyHashShared.Brand, b: MoneyHashShared.Brand) -> Swift.Bool
+  public typealias AllCases = [MoneyHashShared.Brand]
+  nonisolated public static var allCases: [MoneyHashShared.Brand] {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension MoneyHashShared.Brand {
+  public func toKotlinEnum() -> MoneyHashShared.__Brand
+}
+extension MoneyHashShared.__Brand {
+  public func toSwiftEnum() -> MoneyHashShared.Brand
+}
+@frozen public enum FieldType : Swift.Hashable, Swift.CaseIterable, Swift._ObjectiveCBridgeable {
+  case cardNumber
+  case expireMonth
+  case expireYear
+  case cvv
+  case cardHolderName
+  public var label: Swift.String {
+    get
+  }
+  public var name: Swift.String {
+    get
+  }
+  public var ordinal: Swift.Int32 {
+    get
+  }
+  public var type: Swift.String {
+    get
+  }
+  public static var companion: MoneyHashShared.__FieldType.Companion {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _forceBridgeFromObjectiveC(_ source: MoneyHashShared.__FieldType, result: inout MoneyHashShared.FieldType?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _conditionallyBridgeFromObjectiveC(_ source: MoneyHashShared.__FieldType, result: inout MoneyHashShared.FieldType?) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _unconditionallyBridgeFromObjectiveC(_ source: MoneyHashShared.__FieldType?) -> MoneyHashShared.FieldType
+  #endif
+  public func _bridgeToObjectiveC() -> MoneyHashShared.__FieldType
+  public typealias _ObjectiveCType = MoneyHashShared.__FieldType
+  public typealias Companion = MoneyHashShared.__FieldType.Companion
+  public static func == (a: MoneyHashShared.FieldType, b: MoneyHashShared.FieldType) -> Swift.Bool
+  public typealias AllCases = [MoneyHashShared.FieldType]
+  nonisolated public static var allCases: [MoneyHashShared.FieldType] {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension MoneyHashShared.FieldType {
+  public func toKotlinEnum() -> MoneyHashShared.__FieldType
+}
+extension MoneyHashShared.__FieldType {
+  public func toSwiftEnum() -> MoneyHashShared.FieldType
+}
+@frozen public enum ErrorType : Swift.Hashable, Swift.CaseIterable, Swift._ObjectiveCBridgeable {
+  case network
+  case unknown
+  case cardValidation
+  case cancelled
+  public var name: Swift.String {
+    get
+  }
+  public var ordinal: Swift.Int32 {
+    get
+  }
+  public static var companion: MoneyHashShared.__ErrorType.Companion {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _forceBridgeFromObjectiveC(_ source: MoneyHashShared.__ErrorType, result: inout MoneyHashShared.ErrorType?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _conditionallyBridgeFromObjectiveC(_ source: MoneyHashShared.__ErrorType, result: inout MoneyHashShared.ErrorType?) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _unconditionallyBridgeFromObjectiveC(_ source: MoneyHashShared.__ErrorType?) -> MoneyHashShared.ErrorType
+  #endif
+  public func _bridgeToObjectiveC() -> MoneyHashShared.__ErrorType
+  public typealias _ObjectiveCType = MoneyHashShared.__ErrorType
+  public typealias Companion = MoneyHashShared.__ErrorType.Companion
+  public static func == (a: MoneyHashShared.ErrorType, b: MoneyHashShared.ErrorType) -> Swift.Bool
+  public typealias AllCases = [MoneyHashShared.ErrorType]
+  nonisolated public static var allCases: [MoneyHashShared.ErrorType] {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension MoneyHashShared.ErrorType {
+  public func toKotlinEnum() -> MoneyHashShared.__ErrorType
+}
+extension MoneyHashShared.__ErrorType {
+  public func toSwiftEnum() -> MoneyHashShared.ErrorType
+}
+@frozen public enum Locale : Swift.Hashable, Swift.CaseIterable, Swift._ObjectiveCBridgeable {
+  case en
+  case ar
+  case fr
+  public var name: Swift.String {
+    get
+  }
+  public var ordinal: Swift.Int32 {
+    get
+  }
+  public static var companion: MoneyHashShared.__Locale.Companion {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _forceBridgeFromObjectiveC(_ source: MoneyHashShared.__Locale, result: inout MoneyHashShared.Locale?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _conditionallyBridgeFromObjectiveC(_ source: MoneyHashShared.__Locale, result: inout MoneyHashShared.Locale?) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _unconditionallyBridgeFromObjectiveC(_ source: MoneyHashShared.__Locale?) -> MoneyHashShared.Locale
+  #endif
+  public func _bridgeToObjectiveC() -> MoneyHashShared.__Locale
+  public typealias _ObjectiveCType = MoneyHashShared.__Locale
+  public typealias Companion = MoneyHashShared.__Locale.Companion
+  public static func == (a: MoneyHashShared.Locale, b: MoneyHashShared.Locale) -> Swift.Bool
+  public typealias AllCases = [MoneyHashShared.Locale]
+  nonisolated public static var allCases: [MoneyHashShared.Locale] {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension MoneyHashShared.Locale {
+  public func toKotlinEnum() -> MoneyHashShared.__Locale
+}
+extension MoneyHashShared.__Locale {
+  public func toSwiftEnum() -> MoneyHashShared.Locale
+}
+@frozen public enum LoggerSeverity : Swift.Hashable, Swift.CaseIterable, Swift._ObjectiveCBridgeable {
+  case verbose
+  case debug
+  case info
+  case warn
+  case error
+  case assert
+  case none
+  public var name: Swift.String {
+    get
+  }
+  public var ordinal: Swift.Int32 {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _forceBridgeFromObjectiveC(_ source: MoneyHashShared.__LoggerSeverity, result: inout MoneyHashShared.LoggerSeverity?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _conditionallyBridgeFromObjectiveC(_ source: MoneyHashShared.__LoggerSeverity, result: inout MoneyHashShared.LoggerSeverity?) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _unconditionallyBridgeFromObjectiveC(_ source: MoneyHashShared.__LoggerSeverity?) -> MoneyHashShared.LoggerSeverity
+  #endif
+  public func _bridgeToObjectiveC() -> MoneyHashShared.__LoggerSeverity
+  public typealias _ObjectiveCType = MoneyHashShared.__LoggerSeverity
+  public static func == (a: MoneyHashShared.LoggerSeverity, b: MoneyHashShared.LoggerSeverity) -> Swift.Bool
+  public typealias AllCases = [MoneyHashShared.LoggerSeverity]
+  nonisolated public static var allCases: [MoneyHashShared.LoggerSeverity] {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension MoneyHashShared.LoggerSeverity {
+  public func toKotlinEnum() -> MoneyHashShared.__LoggerSeverity
+}
+extension MoneyHashShared.__LoggerSeverity {
+  public func toSwiftEnum() -> MoneyHashShared.LoggerSeverity
+}
+@frozen public enum RenderStrategy : Swift.Hashable, Swift.CaseIterable, Swift._ObjectiveCBridgeable {
+  case iframe
+  case popupIframe
+  case redirect
+  case none
+  public var name: Swift.String {
+    get
+  }
+  public var ordinal: Swift.Int32 {
+    get
+  }
+  public var strategy: Swift.String {
+    get
+  }
+  public static var companion: MoneyHashShared.__RenderStrategy.Companion {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _forceBridgeFromObjectiveC(_ source: MoneyHashShared.__RenderStrategy, result: inout MoneyHashShared.RenderStrategy?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _conditionallyBridgeFromObjectiveC(_ source: MoneyHashShared.__RenderStrategy, result: inout MoneyHashShared.RenderStrategy?) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _unconditionallyBridgeFromObjectiveC(_ source: MoneyHashShared.__RenderStrategy?) -> MoneyHashShared.RenderStrategy
+  #endif
+  public func _bridgeToObjectiveC() -> MoneyHashShared.__RenderStrategy
+  public typealias _ObjectiveCType = MoneyHashShared.__RenderStrategy
+  public typealias Companion = MoneyHashShared.__RenderStrategy.Companion
+  public static func == (a: MoneyHashShared.RenderStrategy, b: MoneyHashShared.RenderStrategy) -> Swift.Bool
+  public typealias AllCases = [MoneyHashShared.RenderStrategy]
+  nonisolated public static var allCases: [MoneyHashShared.RenderStrategy] {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension MoneyHashShared.RenderStrategy {
+  public func toKotlinEnum() -> MoneyHashShared.__RenderStrategy
+}
+extension MoneyHashShared.__RenderStrategy {
+  public func toSwiftEnum() -> MoneyHashShared.RenderStrategy
+}
+@frozen public enum Ktor_utilsMonth : Swift.Hashable, Swift.CaseIterable, Swift._ObjectiveCBridgeable {
+  case january
+  case february
+  case march
+  case april
+  case may
+  case june
+  case july
+  case august
+  case september
+  case october
+  case november
+  case december
+  public var name: Swift.String {
+    get
+  }
+  public var ordinal: Swift.Int32 {
+    get
+  }
+  public var value: Swift.String {
+    get
+  }
+  public static var companion: MoneyHashShared.__Ktor_utilsMonth.Companion {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _forceBridgeFromObjectiveC(_ source: MoneyHashShared.__Ktor_utilsMonth, result: inout MoneyHashShared.Ktor_utilsMonth?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _conditionallyBridgeFromObjectiveC(_ source: MoneyHashShared.__Ktor_utilsMonth, result: inout MoneyHashShared.Ktor_utilsMonth?) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _unconditionallyBridgeFromObjectiveC(_ source: MoneyHashShared.__Ktor_utilsMonth?) -> MoneyHashShared.Ktor_utilsMonth
+  #endif
+  public func _bridgeToObjectiveC() -> MoneyHashShared.__Ktor_utilsMonth
+  public typealias _ObjectiveCType = MoneyHashShared.__Ktor_utilsMonth
+  public typealias Companion = MoneyHashShared.__Ktor_utilsMonth.Companion
+  public static func == (a: MoneyHashShared.Ktor_utilsMonth, b: MoneyHashShared.Ktor_utilsMonth) -> Swift.Bool
+  public typealias AllCases = [MoneyHashShared.Ktor_utilsMonth]
+  nonisolated public static var allCases: [MoneyHashShared.Ktor_utilsMonth] {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension MoneyHashShared.Ktor_utilsMonth {
+  public func toKotlinEnum() -> MoneyHashShared.__Ktor_utilsMonth
+}
+extension MoneyHashShared.__Ktor_utilsMonth {
+  public func toSwiftEnum() -> MoneyHashShared.Ktor_utilsMonth
+}
+@frozen public enum Ktor_utilsWeekDay : Swift.Hashable, Swift.CaseIterable, Swift._ObjectiveCBridgeable {
+  case monday
+  case tuesday
+  case wednesday
+  case thursday
+  case friday
+  case saturday
+  case sunday
+  public var name: Swift.String {
+    get
+  }
+  public var ordinal: Swift.Int32 {
+    get
+  }
+  public var value: Swift.String {
+    get
+  }
+  public static var companion: MoneyHashShared.__Ktor_utilsWeekDay.Companion {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _forceBridgeFromObjectiveC(_ source: MoneyHashShared.__Ktor_utilsWeekDay, result: inout MoneyHashShared.Ktor_utilsWeekDay?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _conditionallyBridgeFromObjectiveC(_ source: MoneyHashShared.__Ktor_utilsWeekDay, result: inout MoneyHashShared.Ktor_utilsWeekDay?) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _unconditionallyBridgeFromObjectiveC(_ source: MoneyHashShared.__Ktor_utilsWeekDay?) -> MoneyHashShared.Ktor_utilsWeekDay
+  #endif
+  public func _bridgeToObjectiveC() -> MoneyHashShared.__Ktor_utilsWeekDay
+  public typealias _ObjectiveCType = MoneyHashShared.__Ktor_utilsWeekDay
+  public typealias Companion = MoneyHashShared.__Ktor_utilsWeekDay.Companion
+  public static func == (a: MoneyHashShared.Ktor_utilsWeekDay, b: MoneyHashShared.Ktor_utilsWeekDay) -> Swift.Bool
+  public typealias AllCases = [MoneyHashShared.Ktor_utilsWeekDay]
+  nonisolated public static var allCases: [MoneyHashShared.Ktor_utilsWeekDay] {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension MoneyHashShared.Ktor_utilsWeekDay {
+  public func toKotlinEnum() -> MoneyHashShared.__Ktor_utilsWeekDay
+}
+extension MoneyHashShared.__Ktor_utilsWeekDay {
+  public func toSwiftEnum() -> MoneyHashShared.Ktor_utilsWeekDay
+}
+@frozen public enum Kotlinx_serialization_jsonClassDiscriminatorMode : Swift.Hashable, Swift.CaseIterable, Swift._ObjectiveCBridgeable {
+  case none
+  case allJsonObjects
+  case polymorphic
+  public var name: Swift.String {
+    get
+  }
+  public var ordinal: Swift.Int32 {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _forceBridgeFromObjectiveC(_ source: MoneyHashShared.__Kotlinx_serialization_jsonClassDiscriminatorMode, result: inout MoneyHashShared.Kotlinx_serialization_jsonClassDiscriminatorMode?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _conditionallyBridgeFromObjectiveC(_ source: MoneyHashShared.__Kotlinx_serialization_jsonClassDiscriminatorMode, result: inout MoneyHashShared.Kotlinx_serialization_jsonClassDiscriminatorMode?) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func _unconditionallyBridgeFromObjectiveC(_ source: MoneyHashShared.__Kotlinx_serialization_jsonClassDiscriminatorMode?) -> MoneyHashShared.Kotlinx_serialization_jsonClassDiscriminatorMode
+  #endif
+  public func _bridgeToObjectiveC() -> MoneyHashShared.__Kotlinx_serialization_jsonClassDiscriminatorMode
+  public typealias _ObjectiveCType = MoneyHashShared.__Kotlinx_serialization_jsonClassDiscriminatorMode
+  public static func == (a: MoneyHashShared.Kotlinx_serialization_jsonClassDiscriminatorMode, b: MoneyHashShared.Kotlinx_serialization_jsonClassDiscriminatorMode) -> Swift.Bool
+  public typealias AllCases = [MoneyHashShared.Kotlinx_serialization_jsonClassDiscriminatorMode]
+  nonisolated public static var allCases: [MoneyHashShared.Kotlinx_serialization_jsonClassDiscriminatorMode] {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension MoneyHashShared.Kotlinx_serialization_jsonClassDiscriminatorMode {
+  public func toKotlinEnum() -> MoneyHashShared.__Kotlinx_serialization_jsonClassDiscriminatorMode
+}
+extension MoneyHashShared.__Kotlinx_serialization_jsonClassDiscriminatorMode {
+  public func toSwiftEnum() -> MoneyHashShared.Kotlinx_serialization_jsonClassDiscriminatorMode
+}
+extension MoneyHashShared.Skie.RuntimeKotlin.Skie_SuspendResult {
+  @frozen public enum __Sealed : Swift.Hashable {
+    case canceled(MoneyHashShared.Skie_SuspendResult.Canceled)
+    case error(MoneyHashShared.Skie_SuspendResult.Error)
+    case success(MoneyHashShared.Skie_SuspendResult.Success)
+    public static func == (a: MoneyHashShared.Skie.RuntimeKotlin.Skie_SuspendResult.__Sealed, b: MoneyHashShared.Skie.RuntimeKotlin.Skie_SuspendResult.__Sealed) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+public func onEnum<__Sealed>(of sealed: __Sealed) -> MoneyHashShared.Skie.RuntimeKotlin.Skie_SuspendResult.__Sealed where __Sealed : MoneyHashShared.Skie_SuspendResult
+#if compiler(>=5.3) && $NonescapableTypes
+@_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> MoneyHashShared.Skie.RuntimeKotlin.Skie_SuspendResult.__Sealed? where __Sealed : MoneyHashShared.Skie_SuspendResult
+#endif
+extension MoneyHashShared.Skie.KotlinxCoroutinesCore.SelectClause0 {
+  @frozen public enum __Sealed : Swift.Hashable {
+    case `else`
+    public static func == (a: MoneyHashShared.Skie.KotlinxCoroutinesCore.SelectClause0.__Sealed, b: MoneyHashShared.Skie.KotlinxCoroutinesCore.SelectClause0.__Sealed) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+public func onEnum<__Sealed>(of sealed: __Sealed) -> MoneyHashShared.Skie.KotlinxCoroutinesCore.SelectClause0.__Sealed where __Sealed : MoneyHashShared.Kotlinx_coroutines_coreSelectClause0
+#if compiler(>=5.3) && $NonescapableTypes
+@_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> MoneyHashShared.Skie.KotlinxCoroutinesCore.SelectClause0.__Sealed? where __Sealed : MoneyHashShared.Kotlinx_coroutines_coreSelectClause0
+#endif
+extension MoneyHashShared.Skie.KotlinxCoroutinesCore.SelectClause {
+  @frozen public enum __Sealed {
+    case selectClause0(any MoneyHashShared.Kotlinx_coroutines_coreSelectClause0)
+    case selectClause1(any MoneyHashShared.Kotlinx_coroutines_coreSelectClause1)
+    case selectClause2(any MoneyHashShared.Kotlinx_coroutines_coreSelectClause2)
+  }
+}
+public func onEnum<__Sealed>(of sealed: __Sealed) -> MoneyHashShared.Skie.KotlinxCoroutinesCore.SelectClause.__Sealed where __Sealed : MoneyHashShared.Kotlinx_coroutines_coreSelectClause
+#if compiler(>=5.3) && $NonescapableTypes
+@_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> MoneyHashShared.Skie.KotlinxCoroutinesCore.SelectClause.__Sealed? where __Sealed : MoneyHashShared.Kotlinx_coroutines_coreSelectClause
+#endif
+extension MoneyHashShared.Skie.KotlinxCoroutinesCore.SelectInstance {
+  @frozen public enum __Sealed : Swift.Hashable {
+    case `else`
+    public static func == (a: MoneyHashShared.Skie.KotlinxCoroutinesCore.SelectInstance.__Sealed, b: MoneyHashShared.Skie.KotlinxCoroutinesCore.SelectInstance.__Sealed) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+public func onEnum<__Sealed>(of sealed: __Sealed) -> MoneyHashShared.Skie.KotlinxCoroutinesCore.SelectInstance.__Sealed where __Sealed : MoneyHashShared.Kotlinx_coroutines_coreSelectInstance
+#if compiler(>=5.3) && $NonescapableTypes
+@_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> MoneyHashShared.Skie.KotlinxCoroutinesCore.SelectInstance.__Sealed? where __Sealed : MoneyHashShared.Kotlinx_coroutines_coreSelectInstance
+#endif
+extension MoneyHashShared.Skie.KotlinxCoroutinesCore.SelectClause1 {
+  @frozen public enum __Sealed : Swift.Hashable {
+    case `else`
+    public static func == (a: MoneyHashShared.Skie.KotlinxCoroutinesCore.SelectClause1.__Sealed, b: MoneyHashShared.Skie.KotlinxCoroutinesCore.SelectClause1.__Sealed) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+public func onEnum<__Sealed>(of sealed: __Sealed) -> MoneyHashShared.Skie.KotlinxCoroutinesCore.SelectClause1.__Sealed where __Sealed : MoneyHashShared.Kotlinx_coroutines_coreSelectClause1
+#if compiler(>=5.3) && $NonescapableTypes
+@_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> MoneyHashShared.Skie.KotlinxCoroutinesCore.SelectClause1.__Sealed? where __Sealed : MoneyHashShared.Kotlinx_coroutines_coreSelectClause1
+#endif
+extension MoneyHashShared.Skie.KotlinxCoroutinesCore.SelectClause2 {
+  @frozen public enum __Sealed : Swift.Hashable {
+    case `else`
+    public static func == (a: MoneyHashShared.Skie.KotlinxCoroutinesCore.SelectClause2.__Sealed, b: MoneyHashShared.Skie.KotlinxCoroutinesCore.SelectClause2.__Sealed) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+public func onEnum<__Sealed>(of sealed: __Sealed) -> MoneyHashShared.Skie.KotlinxCoroutinesCore.SelectClause2.__Sealed where __Sealed : MoneyHashShared.Kotlinx_coroutines_coreSelectClause2
+#if compiler(>=5.3) && $NonescapableTypes
+@_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> MoneyHashShared.Skie.KotlinxCoroutinesCore.SelectClause2.__Sealed? where __Sealed : MoneyHashShared.Kotlinx_coroutines_coreSelectClause2
+#endif
+extension MoneyHashShared.Skie.moneyhash_kmm__MoneyHashShared.RequestContent {
+  @frozen public enum __Sealed : Swift.Hashable {
+    case body(MoneyHashShared.RequestContentBody<Swift.AnyObject>)
+    case header(MoneyHashShared.RequestContent.Header)
+    case path(MoneyHashShared.RequestContent.Path)
+    case query(MoneyHashShared.RequestContent.Query)
+    public static func == (a: MoneyHashShared.Skie.moneyhash_kmm__MoneyHashShared.RequestContent.__Sealed, b: MoneyHashShared.Skie.moneyhash_kmm__MoneyHashShared.RequestContent.__Sealed) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+public func onEnum<__Sealed>(of sealed: __Sealed) -> MoneyHashShared.Skie.moneyhash_kmm__MoneyHashShared.RequestContent.__Sealed where __Sealed : MoneyHashShared.RequestContent
+#if compiler(>=5.3) && $NonescapableTypes
+@_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> MoneyHashShared.Skie.moneyhash_kmm__MoneyHashShared.RequestContent.__Sealed? where __Sealed : MoneyHashShared.RequestContent
+#endif
+extension MoneyHashShared.Skie.moneyhash_kmm__MoneyHashShared.CustomFieldValue {
+  @frozen public enum __Sealed : Swift.Hashable {
+    case booleanValue(MoneyHashShared.CustomFieldValue.BooleanValue)
+    case doubleValue(MoneyHashShared.CustomFieldValue.DoubleValue)
+    case floatValue(MoneyHashShared.CustomFieldValue.FloatValue)
+    case intValue(MoneyHashShared.CustomFieldValue.IntValue)
+    case stringValue(MoneyHashShared.CustomFieldValue.StringValue)
+    public static func == (a: MoneyHashShared.Skie.moneyhash_kmm__MoneyHashShared.CustomFieldValue.__Sealed, b: MoneyHashShared.Skie.moneyhash_kmm__MoneyHashShared.CustomFieldValue.__Sealed) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+public func onEnum<__Sealed>(of sealed: __Sealed) -> MoneyHashShared.Skie.moneyhash_kmm__MoneyHashShared.CustomFieldValue.__Sealed where __Sealed : MoneyHashShared.CustomFieldValue
+#if compiler(>=5.3) && $NonescapableTypes
+@_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> MoneyHashShared.Skie.moneyhash_kmm__MoneyHashShared.CustomFieldValue.__Sealed? where __Sealed : MoneyHashShared.CustomFieldValue
+#endif
+extension MoneyHashShared.Skie.moneyhash_kmm__MoneyHashShared.NativePayData {
+  @frozen public enum __Sealed : Swift.Hashable {
+    case applePayData(MoneyHashShared.NativePayData.ApplePayData)
+    case bankAccountPay(MoneyHashShared.NativePayData.BankAccountPay)
+    case googlePay(MoneyHashShared.NativePayData.GooglePay)
+    public static func == (a: MoneyHashShared.Skie.moneyhash_kmm__MoneyHashShared.NativePayData.__Sealed, b: MoneyHashShared.Skie.moneyhash_kmm__MoneyHashShared.NativePayData.__Sealed) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+public func onEnum<__Sealed>(of sealed: __Sealed) -> MoneyHashShared.Skie.moneyhash_kmm__MoneyHashShared.NativePayData.__Sealed where __Sealed : MoneyHashShared.NativePayData
+#if compiler(>=5.3) && $NonescapableTypes
+@_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> MoneyHashShared.Skie.moneyhash_kmm__MoneyHashShared.NativePayData.__Sealed? where __Sealed : MoneyHashShared.NativePayData
+#endif
+extension MoneyHashShared.Skie.moneyhash_kmm__MoneyHashShared.CardState {
+  @frozen public enum __Sealed : Swift.Hashable {
+    case error(MoneyHashShared.CardState.Error)
+    case failed(MoneyHashShared.CardState.Failed)
+    case success(MoneyHashShared.CardState.Success)
+    case unknown(MoneyHashShared.CardState.Unknown)
+    public static func == (a: MoneyHashShared.Skie.moneyhash_kmm__MoneyHashShared.CardState.__Sealed, b: MoneyHashShared.Skie.moneyhash_kmm__MoneyHashShared.CardState.__Sealed) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+public func onEnum<__Sealed>(of sealed: __Sealed) -> MoneyHashShared.Skie.moneyhash_kmm__MoneyHashShared.CardState.__Sealed where __Sealed : MoneyHashShared.CardState
+#if compiler(>=5.3) && $NonescapableTypes
+@_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> MoneyHashShared.Skie.moneyhash_kmm__MoneyHashShared.CardState.__Sealed? where __Sealed : MoneyHashShared.CardState
+#endif
+extension MoneyHashShared.Skie.moneyhash_kmm__MoneyHashShared.IntentStateDetails {
+  @frozen public enum __Sealed : Swift.Hashable {
+    case cardIntentFailed(MoneyHashShared.IntentStateDetails.CardIntentFailed)
+    case cardIntentSuccessful(MoneyHashShared.IntentStateDetails.CardIntentSuccessful)
+    case closed(MoneyHashShared.IntentStateDetails.Closed)
+    case expired(MoneyHashShared.IntentStateDetails.Expired)
+    case formFields(MoneyHashShared.IntentStateDetails.FormFields)
+    case installmentPlans(MoneyHashShared.IntentStateDetails.InstallmentPlans)
+    case intentForm(MoneyHashShared.IntentStateDetails.IntentForm)
+    case intentProcessed(MoneyHashShared.IntentStateDetails.IntentProcessed)
+    case methodSelection(MoneyHashShared.IntentStateDetails.MethodSelection)
+    case nativePay(MoneyHashShared.IntentStateDetails.NativePay)
+    case processing(MoneyHashShared.IntentStateDetails.Processing)
+    case savedCardCVV(MoneyHashShared.IntentStateDetails.SavedCardCVV)
+    case transactionFailed(MoneyHashShared.IntentStateDetails.TransactionFailed)
+    case transactionWaitingUserAction(MoneyHashShared.IntentStateDetails.TransactionWaitingUserAction)
+    case urlToRender(MoneyHashShared.IntentStateDetails.UrlToRender)
+    public static func == (a: MoneyHashShared.Skie.moneyhash_kmm__MoneyHashShared.IntentStateDetails.__Sealed, b: MoneyHashShared.Skie.moneyhash_kmm__MoneyHashShared.IntentStateDetails.__Sealed) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+public func onEnum<__Sealed>(of sealed: __Sealed) -> MoneyHashShared.Skie.moneyhash_kmm__MoneyHashShared.IntentStateDetails.__Sealed where __Sealed : MoneyHashShared.IntentStateDetails
+#if compiler(>=5.3) && $NonescapableTypes
+@_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> MoneyHashShared.Skie.moneyhash_kmm__MoneyHashShared.IntentStateDetails.__Sealed? where __Sealed : MoneyHashShared.IntentStateDetails
+#endif
+extension MoneyHashShared.Skie.moneyhash_kmm__MoneyHashShared.CardFormExceptions {
+  @frozen public enum __Sealed : Swift.Hashable {
+    case expireDateIsInThePast(MoneyHashShared.CardFormExceptions.ExpireDateIsInThePast)
+    case invalidFieldException(MoneyHashShared.CardFormExceptions.InvalidFieldException)
+    case missingFieldTypeException(MoneyHashShared.CardFormExceptions.MissingFieldTypeException)
+    case redundantFieldTypeException(MoneyHashShared.CardFormExceptions.RedundantFieldTypeException)
+    public static func == (a: MoneyHashShared.Skie.moneyhash_kmm__MoneyHashShared.CardFormExceptions.__Sealed, b: MoneyHashShared.Skie.moneyhash_kmm__MoneyHashShared.CardFormExceptions.__Sealed) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+public func onEnum<__Sealed>(of sealed: __Sealed) -> MoneyHashShared.Skie.moneyhash_kmm__MoneyHashShared.CardFormExceptions.__Sealed where __Sealed : MoneyHashShared.CardFormExceptions
+#if compiler(>=5.3) && $NonescapableTypes
+@_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> MoneyHashShared.Skie.moneyhash_kmm__MoneyHashShared.CardFormExceptions.__Sealed? where __Sealed : MoneyHashShared.CardFormExceptions
+#endif
+extension MoneyHashShared.Skie.moneyhash_kmm__MoneyHashShared.ValidationException {
+  @frozen public enum __Sealed : Swift.Hashable {
+    case alphabetValidationException(MoneyHashShared.ValidationException.AlphabetValidationException)
+    case customRegexValidationException(MoneyHashShared.ValidationException.CustomRegexValidationException)
+    case emptyValueException(MoneyHashShared.ValidationException.EmptyValueException)
+    case lengthException(MoneyHashShared.ValidationException.LengthException)
+    case luhnException(MoneyHashShared.ValidationException.LuhnException)
+    case numericValidationException(MoneyHashShared.ValidationException.NumericValidationException)
+    case rangeValueValidationException(MoneyHashShared.ValidationException.RangeValueValidationException)
+    public static func == (a: MoneyHashShared.Skie.moneyhash_kmm__MoneyHashShared.ValidationException.__Sealed, b: MoneyHashShared.Skie.moneyhash_kmm__MoneyHashShared.ValidationException.__Sealed) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+public func onEnum<__Sealed>(of sealed: __Sealed) -> MoneyHashShared.Skie.moneyhash_kmm__MoneyHashShared.ValidationException.__Sealed where __Sealed : MoneyHashShared.ValidationException
+#if compiler(>=5.3) && $NonescapableTypes
+@_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> MoneyHashShared.Skie.moneyhash_kmm__MoneyHashShared.ValidationException.__Sealed? where __Sealed : MoneyHashShared.ValidationException
+#endif
+extension MoneyHashShared.Skie.moneyhash_kmm__MoneyHashShared.VaultCollectNetworkError {
+  @frozen public enum __Sealed : Swift.Hashable {
+    case missingPublicKey(MoneyHashShared.VaultCollectNetworkError.MissingPublicKey)
+    case tokenizationError(MoneyHashShared.VaultCollectNetworkError.TokenizationError)
+    public static func == (a: MoneyHashShared.Skie.moneyhash_kmm__MoneyHashShared.VaultCollectNetworkError.__Sealed, b: MoneyHashShared.Skie.moneyhash_kmm__MoneyHashShared.VaultCollectNetworkError.__Sealed) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+public func onEnum<__Sealed>(of sealed: __Sealed) -> MoneyHashShared.Skie.moneyhash_kmm__MoneyHashShared.VaultCollectNetworkError.__Sealed where __Sealed : MoneyHashShared.VaultCollectNetworkError
+#if compiler(>=5.3) && $NonescapableTypes
+@_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> MoneyHashShared.Skie.moneyhash_kmm__MoneyHashShared.VaultCollectNetworkError.__Sealed? where __Sealed : MoneyHashShared.VaultCollectNetworkError
+#endif
+extension MoneyHashShared.Skie.KotlinxSerializationCore.SerialKind {
+  @frozen public enum __Sealed : Swift.Hashable {
+    case polymorphicKind(MoneyHashShared.Kotlinx_serialization_corePolymorphicKind)
+    case primitiveKind(MoneyHashShared.Kotlinx_serialization_corePrimitiveKind)
+    case cONTEXTUAL(MoneyHashShared.Kotlinx_serialization_coreSerialKind.CONTEXTUAL)
+    case eNUM(MoneyHashShared.Kotlinx_serialization_coreSerialKind.ENUM)
+    case structureKind(MoneyHashShared.Kotlinx_serialization_coreStructureKind)
+    public static func == (a: MoneyHashShared.Skie.KotlinxSerializationCore.SerialKind.__Sealed, b: MoneyHashShared.Skie.KotlinxSerializationCore.SerialKind.__Sealed) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+public func onEnum<__Sealed>(of sealed: __Sealed) -> MoneyHashShared.Skie.KotlinxSerializationCore.SerialKind.__Sealed where __Sealed : MoneyHashShared.Kotlinx_serialization_coreSerialKind
+#if compiler(>=5.3) && $NonescapableTypes
+@_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> MoneyHashShared.Skie.KotlinxSerializationCore.SerialKind.__Sealed? where __Sealed : MoneyHashShared.Kotlinx_serialization_coreSerialKind
+#endif
+extension MoneyHashShared.Skie.KotlinxSerializationCore.SerializersModule {
+  @frozen public enum __Sealed : Swift.Hashable {
+    case `else`
+    public static func == (a: MoneyHashShared.Skie.KotlinxSerializationCore.SerializersModule.__Sealed, b: MoneyHashShared.Skie.KotlinxSerializationCore.SerializersModule.__Sealed) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+public func onEnum<__Sealed>(of sealed: __Sealed) -> MoneyHashShared.Skie.KotlinxSerializationCore.SerializersModule.__Sealed where __Sealed : MoneyHashShared.Kotlinx_serialization_coreSerializersModule
+#if compiler(>=5.3) && $NonescapableTypes
+@_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> MoneyHashShared.Skie.KotlinxSerializationCore.SerializersModule.__Sealed? where __Sealed : MoneyHashShared.Kotlinx_serialization_coreSerializersModule
+#endif
+extension MoneyHashShared.Skie.KotlinxSerializationCore.PolymorphicKind {
+  @frozen public enum __Sealed : Swift.Hashable {
+    case oPEN(MoneyHashShared.Kotlinx_serialization_corePolymorphicKind.OPEN)
+    case sEALED(MoneyHashShared.Kotlinx_serialization_corePolymorphicKind.SEALED)
+    public static func == (a: MoneyHashShared.Skie.KotlinxSerializationCore.PolymorphicKind.__Sealed, b: MoneyHashShared.Skie.KotlinxSerializationCore.PolymorphicKind.__Sealed) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+public func onEnum<__Sealed>(of sealed: __Sealed) -> MoneyHashShared.Skie.KotlinxSerializationCore.PolymorphicKind.__Sealed where __Sealed : MoneyHashShared.Kotlinx_serialization_corePolymorphicKind
+#if compiler(>=5.3) && $NonescapableTypes
+@_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> MoneyHashShared.Skie.KotlinxSerializationCore.PolymorphicKind.__Sealed? where __Sealed : MoneyHashShared.Kotlinx_serialization_corePolymorphicKind
+#endif
+extension MoneyHashShared.Skie.KotlinxSerializationCore.PrimitiveKind {
+  @frozen public enum __Sealed : Swift.Hashable {
+    case bOOLEAN(MoneyHashShared.Kotlinx_serialization_corePrimitiveKind.BOOLEAN)
+    case bYTE(MoneyHashShared.Kotlinx_serialization_corePrimitiveKind.BYTE)
+    case cHAR(MoneyHashShared.Kotlinx_serialization_corePrimitiveKind.CHAR)
+    case dOUBLE(MoneyHashShared.Kotlinx_serialization_corePrimitiveKind.DOUBLE)
+    case fLOAT(MoneyHashShared.Kotlinx_serialization_corePrimitiveKind.FLOAT)
+    case iNT(MoneyHashShared.Kotlinx_serialization_corePrimitiveKind.INT)
+    case lONG(MoneyHashShared.Kotlinx_serialization_corePrimitiveKind.LONG)
+    case sHORT(MoneyHashShared.Kotlinx_serialization_corePrimitiveKind.SHORT)
+    case sTRING(MoneyHashShared.Kotlinx_serialization_corePrimitiveKind.STRING)
+    public static func == (a: MoneyHashShared.Skie.KotlinxSerializationCore.PrimitiveKind.__Sealed, b: MoneyHashShared.Skie.KotlinxSerializationCore.PrimitiveKind.__Sealed) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+public func onEnum<__Sealed>(of sealed: __Sealed) -> MoneyHashShared.Skie.KotlinxSerializationCore.PrimitiveKind.__Sealed where __Sealed : MoneyHashShared.Kotlinx_serialization_corePrimitiveKind
+#if compiler(>=5.3) && $NonescapableTypes
+@_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> MoneyHashShared.Skie.KotlinxSerializationCore.PrimitiveKind.__Sealed? where __Sealed : MoneyHashShared.Kotlinx_serialization_corePrimitiveKind
+#endif
+extension MoneyHashShared.Skie.KotlinxSerializationCore.StructureKind {
+  @frozen public enum __Sealed : Swift.Hashable {
+    case cLASS(MoneyHashShared.Kotlinx_serialization_coreStructureKind.CLASS)
+    case lIST(MoneyHashShared.Kotlinx_serialization_coreStructureKind.LIST)
+    case mAP(MoneyHashShared.Kotlinx_serialization_coreStructureKind.MAP)
+    case oBJECT(MoneyHashShared.Kotlinx_serialization_coreStructureKind.OBJECT)
+    public static func == (a: MoneyHashShared.Skie.KotlinxSerializationCore.StructureKind.__Sealed, b: MoneyHashShared.Skie.KotlinxSerializationCore.StructureKind.__Sealed) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+public func onEnum<__Sealed>(of sealed: __Sealed) -> MoneyHashShared.Skie.KotlinxSerializationCore.StructureKind.__Sealed where __Sealed : MoneyHashShared.Kotlinx_serialization_coreStructureKind
+#if compiler(>=5.3) && $NonescapableTypes
+@_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> MoneyHashShared.Skie.KotlinxSerializationCore.StructureKind.__Sealed? where __Sealed : MoneyHashShared.Kotlinx_serialization_coreStructureKind
+#endif
+extension MoneyHashShared.Skie.KtorHttp.OutgoingContent {
+  @frozen public enum __Sealed : Swift.Hashable {
+    case byteArrayContent(MoneyHashShared.Ktor_httpOutgoingContent.ByteArrayContent)
+    case contentWrapper(MoneyHashShared.Ktor_httpOutgoingContent.ContentWrapper)
+    case noContent(MoneyHashShared.Ktor_httpOutgoingContent.NoContent)
+    case protocolUpgrade(MoneyHashShared.Ktor_httpOutgoingContent.ProtocolUpgrade)
+    case readChannelContent(MoneyHashShared.Ktor_httpOutgoingContent.ReadChannelContent)
+    case writeChannelContent(MoneyHashShared.Ktor_httpOutgoingContent.WriteChannelContent)
+    public static func == (a: MoneyHashShared.Skie.KtorHttp.OutgoingContent.__Sealed, b: MoneyHashShared.Skie.KtorHttp.OutgoingContent.__Sealed) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+public func onEnum<__Sealed>(of sealed: __Sealed) -> MoneyHashShared.Skie.KtorHttp.OutgoingContent.__Sealed where __Sealed : MoneyHashShared.Ktor_httpOutgoingContent
+#if compiler(>=5.3) && $NonescapableTypes
+@_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> MoneyHashShared.Skie.KtorHttp.OutgoingContent.__Sealed? where __Sealed : MoneyHashShared.Ktor_httpOutgoingContent
+#endif
+extension MoneyHashShared.Skie.KotlinxIoCore.Source {
+  @frozen public enum __Sealed : Swift.Hashable {
+    case buffer(MoneyHashShared.Kotlinx_io_coreBuffer)
+    case `else`
+    public static func == (a: MoneyHashShared.Skie.KotlinxIoCore.Source.__Sealed, b: MoneyHashShared.Skie.KotlinxIoCore.Source.__Sealed) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+public func onEnum<__Sealed>(of sealed: __Sealed) -> MoneyHashShared.Skie.KotlinxIoCore.Source.__Sealed where __Sealed : MoneyHashShared.Kotlinx_io_coreSource
+#if compiler(>=5.3) && $NonescapableTypes
+@_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> MoneyHashShared.Skie.KotlinxIoCore.Source.__Sealed? where __Sealed : MoneyHashShared.Kotlinx_io_coreSource
+#endif
+extension MoneyHashShared.Skie.KotlinxIoCore.Sink {
+  @frozen public enum __Sealed : Swift.Hashable {
+    case buffer(MoneyHashShared.Kotlinx_io_coreBuffer)
+    case `else`
+    public static func == (a: MoneyHashShared.Skie.KotlinxIoCore.Sink.__Sealed, b: MoneyHashShared.Skie.KotlinxIoCore.Sink.__Sealed) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+public func onEnum<__Sealed>(of sealed: __Sealed) -> MoneyHashShared.Skie.KotlinxIoCore.Sink.__Sealed where __Sealed : MoneyHashShared.Kotlinx_io_coreSink
+#if compiler(>=5.3) && $NonescapableTypes
+@_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> MoneyHashShared.Skie.KotlinxIoCore.Sink.__Sealed? where __Sealed : MoneyHashShared.Kotlinx_io_coreSink
+#endif
+extension MoneyHashShared.Skie.KotlinxSerializationJson.JsonElement {
+  @frozen public enum __Sealed : Swift.Hashable {
+    case jsonPrimitive(MoneyHashShared.Kotlinx_serialization_jsonJsonPrimitive)
+    case `else`
+    public static func == (a: MoneyHashShared.Skie.KotlinxSerializationJson.JsonElement.__Sealed, b: MoneyHashShared.Skie.KotlinxSerializationJson.JsonElement.__Sealed) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+public func onEnum<__Sealed>(of sealed: __Sealed) -> MoneyHashShared.Skie.KotlinxSerializationJson.JsonElement.__Sealed where __Sealed : MoneyHashShared.Kotlinx_serialization_jsonJsonElement
+#if compiler(>=5.3) && $NonescapableTypes
+@_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> MoneyHashShared.Skie.KotlinxSerializationJson.JsonElement.__Sealed? where __Sealed : MoneyHashShared.Kotlinx_serialization_jsonJsonElement
+#endif
+extension MoneyHashShared.Skie.KotlinxSerializationJson.Json {
+  @frozen public enum __Sealed : Swift.Hashable {
+    case `default`(MoneyHashShared.Kotlinx_serialization_jsonJson.Default)
+    case `else`
+    public static func == (a: MoneyHashShared.Skie.KotlinxSerializationJson.Json.__Sealed, b: MoneyHashShared.Skie.KotlinxSerializationJson.Json.__Sealed) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+public func onEnum<__Sealed>(of sealed: __Sealed) -> MoneyHashShared.Skie.KotlinxSerializationJson.Json.__Sealed where __Sealed : MoneyHashShared.Kotlinx_serialization_jsonJson
+#if compiler(>=5.3) && $NonescapableTypes
+@_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> MoneyHashShared.Skie.KotlinxSerializationJson.Json.__Sealed? where __Sealed : MoneyHashShared.Kotlinx_serialization_jsonJson
+#endif
+extension MoneyHashShared.Skie.KotlinxSerializationJson.JsonPrimitive {
+  @frozen public enum __Sealed : Swift.Hashable {
+    case jsonNull(MoneyHashShared.Kotlinx_serialization_jsonJsonNull)
+    case `else`
+    public static func == (a: MoneyHashShared.Skie.KotlinxSerializationJson.JsonPrimitive.__Sealed, b: MoneyHashShared.Skie.KotlinxSerializationJson.JsonPrimitive.__Sealed) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+public func onEnum<__Sealed>(of sealed: __Sealed) -> MoneyHashShared.Skie.KotlinxSerializationJson.JsonPrimitive.__Sealed where __Sealed : MoneyHashShared.Kotlinx_serialization_jsonJsonPrimitive
+#if compiler(>=5.3) && $NonescapableTypes
+@_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> MoneyHashShared.Skie.KotlinxSerializationJson.JsonPrimitive.__Sealed? where __Sealed : MoneyHashShared.Kotlinx_serialization_jsonJsonPrimitive
+#endif
+public func getPlatform() -> any MoneyHashShared.Platform
+#if compiler(>=5.3) && $NonescapableTypes
+public func executeCatching(block: @escaping () -> Any?) -> Any?
+#endif
+public func isInternetConnectionError(errorMessage: Swift.String) -> Swift.Bool
+extension Swift.String {
+  public func convertArabicNumbersToEnglish() -> Swift.String
+}
+public func getCurrentMonth() -> Swift.Int32
+public func getCurrentYear() -> Swift.Int32
+public func getCurrentYearYY() -> Swift.Int32
+public var JsonWithIgnoredUnknownKeys: MoneyHashShared.Kotlinx_serialization_jsonJson {
+  get
+}
+extension MoneyHashShared.KotlinKVariance : Swift.Sendable {}
+extension MoneyHashShared.KotlinKVariance : Swift.BitwiseCopyable {}
+extension MoneyHashShared.BankAccountStatus : Swift.Sendable {}
+extension MoneyHashShared.BankAccountStatus : Swift.BitwiseCopyable {}
+extension MoneyHashShared.SubscriptionStatus : Swift.Sendable {}
+extension MoneyHashShared.SubscriptionStatus : Swift.BitwiseCopyable {}
+extension MoneyHashShared.LastUsedMethodType : Swift.Sendable {}
+extension MoneyHashShared.LastUsedMethodType : Swift.BitwiseCopyable {}
+extension MoneyHashShared.MethodType : Swift.Sendable {}
+extension MoneyHashShared.MethodType : Swift.BitwiseCopyable {}
+extension MoneyHashShared.IntentStatus : Swift.Sendable {}
+extension MoneyHashShared.IntentStatus : Swift.BitwiseCopyable {}
+extension MoneyHashShared.DiscountType : Swift.Sendable {}
+extension MoneyHashShared.DiscountType : Swift.BitwiseCopyable {}
+extension MoneyHashShared.Language : Swift.Sendable {}
+extension MoneyHashShared.Language : Swift.BitwiseCopyable {}
+extension MoneyHashShared.IntentState : Swift.Sendable {}
+extension MoneyHashShared.IntentState : Swift.BitwiseCopyable {}
+extension MoneyHashShared.IntentOperation : Swift.Sendable {}
+extension MoneyHashShared.IntentOperation : Swift.BitwiseCopyable {}
+extension MoneyHashShared.Environment : Swift.Sendable {}
+extension MoneyHashShared.Environment : Swift.BitwiseCopyable {}
+extension MoneyHashShared.InputFieldType : Swift.Sendable {}
+extension MoneyHashShared.InputFieldType : Swift.BitwiseCopyable {}
+extension MoneyHashShared.Type_ : Swift.Sendable {}
+extension MoneyHashShared.Type_ : Swift.BitwiseCopyable {}
+extension MoneyHashShared.Brand : Swift.Sendable {}
+extension MoneyHashShared.Brand : Swift.BitwiseCopyable {}
+extension MoneyHashShared.FieldType : Swift.Sendable {}
+extension MoneyHashShared.FieldType : Swift.BitwiseCopyable {}
+extension MoneyHashShared.ErrorType : Swift.Sendable {}
+extension MoneyHashShared.ErrorType : Swift.BitwiseCopyable {}
+extension MoneyHashShared.Locale : Swift.Sendable {}
+extension MoneyHashShared.Locale : Swift.BitwiseCopyable {}
+extension MoneyHashShared.LoggerSeverity : Swift.Sendable {}
+extension MoneyHashShared.LoggerSeverity : Swift.BitwiseCopyable {}
+extension MoneyHashShared.RenderStrategy : Swift.Sendable {}
+extension MoneyHashShared.RenderStrategy : Swift.BitwiseCopyable {}
+extension MoneyHashShared.Ktor_utilsMonth : Swift.Sendable {}
+extension MoneyHashShared.Ktor_utilsMonth : Swift.BitwiseCopyable {}
+extension MoneyHashShared.Ktor_utilsWeekDay : Swift.Sendable {}
+extension MoneyHashShared.Ktor_utilsWeekDay : Swift.BitwiseCopyable {}
+extension MoneyHashShared.Kotlinx_serialization_jsonClassDiscriminatorMode : Swift.Sendable {}
+extension MoneyHashShared.Kotlinx_serialization_jsonClassDiscriminatorMode : Swift.BitwiseCopyable {}
+extension MoneyHashShared.Skie.KotlinxCoroutinesCore.SelectClause0.__Sealed : Swift.Sendable {}
+extension MoneyHashShared.Skie.KotlinxCoroutinesCore.SelectClause0.__Sealed : Swift.BitwiseCopyable {}
+extension MoneyHashShared.Skie.KotlinxCoroutinesCore.SelectInstance.__Sealed : Swift.Sendable {}
+extension MoneyHashShared.Skie.KotlinxCoroutinesCore.SelectInstance.__Sealed : Swift.BitwiseCopyable {}
+extension MoneyHashShared.Skie.KotlinxCoroutinesCore.SelectClause1.__Sealed : Swift.Sendable {}
+extension MoneyHashShared.Skie.KotlinxCoroutinesCore.SelectClause1.__Sealed : Swift.BitwiseCopyable {}
+extension MoneyHashShared.Skie.KotlinxCoroutinesCore.SelectClause2.__Sealed : Swift.Sendable {}
+extension MoneyHashShared.Skie.KotlinxCoroutinesCore.SelectClause2.__Sealed : Swift.BitwiseCopyable {}
+extension MoneyHashShared.Skie.KotlinxSerializationCore.SerializersModule.__Sealed : Swift.Sendable {}
+extension MoneyHashShared.Skie.KotlinxSerializationCore.SerializersModule.__Sealed : Swift.BitwiseCopyable {}
